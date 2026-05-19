@@ -1,0 +1,851 @@
+dataset,method,run,seed,train_acc,test_acc,TP,FP,TN,FN,n_classes,d_original,d_retained,efs_std_input,efs_prune_ratio,efs_val_size,efs_best_std
+Breast Cancer (low redundancy),Baseline,1,4436,1.0,0.965034965034965,90,5,48,0,2,30,30,,,,
+Breast Cancer (low redundancy),MutualInfo,1,4436,1.0,0.965034965034965,90,5,48,0,2,30,30,,,,
+Breast Cancer (low redundancy),RFE,1,4436,1.0,0.965034965034965,90,5,48,0,2,30,30,,,,
+Breast Cancer (low redundancy),L1,1,4436,1.0,0.916083916083916,85,7,46,5,2,30,30,,,,
+Breast Cancer (low redundancy),ElliotFS,1,4436,1.0,0.9300699300699301,84,4,49,6,2,30,9,None,0.8,0.25,0.0
+Breast Cancer (low redundancy),Baseline,2,750,1.0,0.9300699300699301,83,3,50,7,2,30,30,,,,
+Breast Cancer (low redundancy),MutualInfo,2,750,1.0,0.9300699300699301,83,3,50,7,2,30,30,,,,
+Breast Cancer (low redundancy),RFE,2,750,1.0,0.9300699300699301,83,3,50,7,2,30,30,,,,
+Breast Cancer (low redundancy),L1,2,750,1.0,0.9090909090909091,81,4,49,9,2,30,30,,,,
+Breast Cancer (low redundancy),ElliotFS,2,750,1.0,0.916083916083916,82,4,49,8,2,30,10,None,0.8,0.25,0.0
+Breast Cancer (low redundancy),Baseline,3,3357,1.0,0.965034965034965,88,3,50,2,2,30,30,,,,
+Breast Cancer (low redundancy),MutualInfo,3,3357,1.0,0.965034965034965,88,3,50,2,2,30,30,,,,
+Breast Cancer (low redundancy),RFE,3,3357,1.0,0.965034965034965,88,3,50,2,2,30,30,,,,
+Breast Cancer (low redundancy),L1,3,3357,1.0,0.958041958041958,87,3,50,3,2,30,30,,,,
+Breast Cancer (low redundancy),ElliotFS,3,3357,1.0,0.958041958041958,87,3,50,3,2,30,9,None,0.8,0.25,0.0
+Breast Cancer (low redundancy),Baseline,4,1329,1.0,0.951048951048951,84,1,52,6,2,30,30,,,,
+Breast Cancer (low redundancy),MutualInfo,4,1329,1.0,0.951048951048951,84,1,52,6,2,30,30,,,,
+Breast Cancer (low redundancy),RFE,4,1329,1.0,0.951048951048951,84,1,52,6,2,30,30,,,,
+Breast Cancer (low redundancy),L1,4,1329,1.0,0.9440559440559441,84,2,51,6,2,30,30,,,,
+Breast Cancer (low redundancy),ElliotFS,4,1329,1.0,0.951048951048951,85,2,51,5,2,30,10,None,0.8,0.25,0.0
+Breast Cancer (low redundancy),Baseline,5,1673,1.0,0.9370629370629371,90,9,44,0,2,30,30,,,,
+Breast Cancer (low redundancy),MutualInfo,5,1673,1.0,0.9370629370629371,90,9,44,0,2,30,30,,,,
+Breast Cancer (low redundancy),RFE,5,1673,1.0,0.9370629370629371,90,9,44,0,2,30,30,,,,
+Breast Cancer (low redundancy),L1,5,1673,1.0,0.9440559440559441,90,8,45,0,2,30,30,,,,
+Breast Cancer (low redundancy),ElliotFS,5,1673,1.0,0.951048951048951,90,7,46,0,2,30,10,None,0.8,0.25,0.0
+Digits (moderate redundancy),Baseline,1,4436,1.0,0.9644444444444444,434,16,-16,16,10,64,64,,,,
+Digits (moderate redundancy),MutualInfo,1,4436,1.0,0.9733333333333334,438,12,-12,12,10,64,32,,,,
+Digits (moderate redundancy),RFE,1,4436,1.0,0.9711111111111111,437,13,-13,13,10,64,32,,,,
+Digits (moderate redundancy),L1,1,4436,1.0,0.9711111111111111,437,13,-13,13,10,64,32,,,,
+Digits (moderate redundancy),ElliotFS,1,4436,1.0,0.9666666666666667,435,15,-15,15,10,64,18,None,0.8,0.25,1.0
+Digits (moderate redundancy),Baseline,2,750,1.0,0.9733333333333334,438,12,-12,12,10,64,64,,,,
+Digits (moderate redundancy),MutualInfo,2,750,1.0,0.9777777777777777,440,10,-10,10,10,64,32,,,,
+Digits (moderate redundancy),RFE,2,750,1.0,0.9711111111111111,437,13,-13,13,10,64,32,,,,
+Digits (moderate redundancy),L1,2,750,1.0,0.98,441,9,-9,9,10,64,32,,,,
+Digits (moderate redundancy),ElliotFS,2,750,1.0,0.9688888888888889,436,14,-14,14,10,64,20,None,0.8,0.25,0.0
+Digits (moderate redundancy),Baseline,3,3357,1.0,0.98,441,9,-9,9,10,64,64,,,,
+Digits (moderate redundancy),MutualInfo,3,3357,1.0,0.98,441,9,-9,9,10,64,32,,,,
+Digits (moderate redundancy),RFE,3,3357,1.0,0.98,441,9,-9,9,10,64,32,,,,
+Digits (moderate redundancy),L1,3,3357,1.0,0.9755555555555555,439,11,-11,11,10,64,32,,,,
+Digits (moderate redundancy),ElliotFS,3,3357,1.0,0.96,432,18,-18,18,10,64,20,None,0.8,0.25,0.0
+Digits (moderate redundancy),Baseline,4,1329,1.0,0.9733333333333334,438,12,-12,12,10,64,64,,,,
+Digits (moderate redundancy),MutualInfo,4,1329,1.0,0.9733333333333334,438,12,-12,12,10,64,32,,,,
+Digits (moderate redundancy),RFE,4,1329,1.0,0.9688888888888889,436,14,-14,14,10,64,32,,,,
+Digits (moderate redundancy),L1,4,1329,1.0,0.9733333333333334,438,12,-12,12,10,64,32,,,,
+Digits (moderate redundancy),ElliotFS,4,1329,1.0,0.9533333333333334,429,21,-21,21,10,64,18,None,0.8,0.25,3.0
+Digits (moderate redundancy),Baseline,5,1673,1.0,0.9777777777777777,440,10,-10,10,10,64,64,,,,
+Digits (moderate redundancy),MutualInfo,5,1673,1.0,0.9733333333333334,438,12,-12,12,10,64,32,,,,
+Digits (moderate redundancy),RFE,5,1673,1.0,0.9755555555555555,439,11,-11,11,10,64,32,,,,
+Digits (moderate redundancy),L1,5,1673,1.0,0.98,441,9,-9,9,10,64,32,,,,
+Digits (moderate redundancy),ElliotFS,5,1673,1.0,0.9488888888888889,427,23,-23,23,10,64,18,None,0.8,0.25,0.0
+HAR (moderate–high redundancy),Baseline,1,4436,1.0,0.9798058252427184,2523,52,-52,52,6,561,561,,,,
+HAR (moderate–high redundancy),MutualInfo,1,4436,1.0,0.938252427184466,2416,159,-159,159,6,561,50,,,,
+HAR (moderate–high redundancy),RFE,1,4436,1.0,0.9716504854368933,2502,73,-73,73,6,561,50,,,,
+HAR (moderate–high redundancy),L1,1,4436,1.0,0.9759223300970874,2513,62,-62,62,6,561,50,,,,
+HAR (moderate–high redundancy),ElliotFS,1,4436,1.0,0.9755339805825243,2512,63,-63,63,6,561,122,None,0.8,0.25,1.0
+HAR (moderate–high redundancy),Baseline,2,750,1.0,0.978252427184466,2519,56,-56,56,6,561,561,,,,
+HAR (moderate–high redundancy),MutualInfo,2,750,1.0,0.9374757281553399,2414,161,-161,161,6,561,50,,,,
+HAR (moderate–high redundancy),RFE,2,750,1.0,0.9794174757281553,2522,53,-53,53,6,561,50,,,,
+HAR (moderate–high redundancy),L1,2,750,1.0,0.974757281553398,2510,65,-65,65,6,561,50,,,,
+HAR (moderate–high redundancy),ElliotFS,2,750,1.0,0.9763106796116505,2514,61,-61,61,6,561,120,None,0.8,0.25,3.0
+HAR (moderate–high redundancy),Baseline,3,3357,1.0,0.9778640776699029,2518,57,-57,57,6,561,561,,,,
+HAR (moderate–high redundancy),MutualInfo,3,3357,1.0,0.9444660194174758,2432,143,-143,143,6,561,50,,,,
+HAR (moderate–high redundancy),RFE,3,3357,1.0,0.9790291262135923,2521,54,-54,54,6,561,50,,,,
+HAR (moderate–high redundancy),L1,3,3357,1.0,0.9778640776699029,2518,57,-57,57,6,561,50,,,,
+HAR (moderate–high redundancy),ElliotFS,3,3357,1.0,0.9790291262135923,2521,54,-54,54,6,561,122,None,0.8,0.25,2.0
+HAR (moderate–high redundancy),Baseline,4,1329,1.0,0.9786407766990292,2520,55,-55,55,6,561,561,,,,
+HAR (moderate–high redundancy),MutualInfo,4,1329,1.0,0.9335922330097087,2404,171,-171,171,6,561,50,,,,
+HAR (moderate–high redundancy),RFE,4,1329,1.0,0.9724271844660194,2504,71,-71,71,6,561,50,,,,
+HAR (moderate–high redundancy),L1,4,1329,1.0,0.9766990291262136,2515,60,-60,60,6,561,50,,,,
+HAR (moderate–high redundancy),ElliotFS,4,1329,1.0,0.9759223300970874,2513,62,-62,62,6,561,128,None,0.8,0.25,0.0
+HAR (moderate–high redundancy),Baseline,5,1673,1.0,0.9766990291262136,2515,60,-60,60,6,561,561,,,,
+HAR (moderate–high redundancy),MutualInfo,5,1673,1.0,0.9386407766990291,2417,158,-158,158,6,561,50,,,,
+HAR (moderate–high redundancy),RFE,5,1673,1.0,0.9778640776699029,2518,57,-57,57,6,561,50,,,,
+HAR (moderate–high redundancy),L1,5,1673,1.0,0.978252427184466,2519,56,-56,56,6,561,50,,,,
+HAR (moderate–high redundancy),ElliotFS,5,1673,1.0,0.978252427184466,2519,56,-56,56,6,561,126,None,0.8,0.25,2.0
+Madelon (heavy redundancy),Baseline,1,4436,1.0,0.703076923076923,251,119,206,74,2,500,500,,,,
+Madelon (heavy redundancy),MutualInfo,1,4436,1.0,0.7,244,114,211,81,2,500,50,,,,
+Madelon (heavy redundancy),RFE,1,4436,1.0,0.8415384615384616,280,58,267,45,2,500,50,,,,
+Madelon (heavy redundancy),L1,1,4436,1.0,0.7753846153846153,263,84,241,62,2,500,50,,,,
+Madelon (heavy redundancy),ElliotFS,1,4436,1.0,0.816923076923077,275,69,256,50,2,500,100,None,0.8,0.25,0.0
+Madelon (heavy redundancy),Baseline,2,750,1.0,0.7061538461538461,261,127,198,64,2,500,500,,,,
+Madelon (heavy redundancy),MutualInfo,2,750,1.0,0.7107692307692308,246,109,216,79,2,500,50,,,,
+Madelon (heavy redundancy),RFE,2,750,1.0,0.8492307692307692,286,59,266,39,2,500,50,,,,
+Madelon (heavy redundancy),L1,2,750,1.0,0.7846153846153846,279,94,231,46,2,500,50,,,,
+Madelon (heavy redundancy),ElliotFS,2,750,1.0,0.8276923076923077,285,72,253,40,2,500,100,None,0.8,0.25,2.0
+Madelon (heavy redundancy),Baseline,3,3357,1.0,0.7215384615384616,254,110,215,71,2,500,500,,,,
+Madelon (heavy redundancy),MutualInfo,3,3357,1.0,0.7169230769230769,259,118,207,66,2,500,50,,,,
+Madelon (heavy redundancy),RFE,3,3357,1.0,0.86,291,57,268,34,2,500,50,,,,
+Madelon (heavy redundancy),L1,3,3357,1.0,0.8092307692307692,277,76,249,48,2,500,50,,,,
+Madelon (heavy redundancy),ElliotFS,3,3357,1.0,0.8307692307692308,288,73,252,37,2,500,100,None,0.8,0.25,2.0
+Madelon (heavy redundancy),Baseline,4,1329,1.0,0.7123076923076923,260,122,203,65,2,500,500,,,,
+Madelon (heavy redundancy),MutualInfo,4,1329,1.0,0.7061538461538461,262,128,197,63,2,500,50,,,,
+Madelon (heavy redundancy),RFE,4,1329,1.0,0.8584615384615385,288,55,270,37,2,500,50,,,,
+Madelon (heavy redundancy),L1,4,1329,1.0,0.7876923076923077,270,83,242,55,2,500,50,,,,
+Madelon (heavy redundancy),ElliotFS,4,1329,1.0,0.8261538461538461,282,70,255,43,2,500,100,None,0.8,0.25,1.0
+Madelon (heavy redundancy),Baseline,5,1673,1.0,0.7369230769230769,251,97,228,74,2,500,500,,,,
+Madelon (heavy redundancy),MutualInfo,5,1673,1.0,0.7338461538461538,246,94,231,79,2,500,50,,,,
+Madelon (heavy redundancy),RFE,5,1673,1.0,0.8738461538461538,279,36,289,46,2,500,50,,,,
+Madelon (heavy redundancy),L1,5,1673,1.0,0.816923076923077,278,72,253,47,2,500,50,,,,
+Madelon (heavy redundancy),ElliotFS,5,1673,1.0,0.8461538461538461,277,52,273,48,2,500,100,None,0.8,0.25,0.0
+Breast Cancer (low redundancy),Baseline,1,3893,1.0,0.972027972027972,88,2,51,2,2,30,30,,,,
+Breast Cancer (low redundancy),MutualInfo,1,3893,1.0,0.972027972027972,88,2,51,2,2,30,30,,,,
+Breast Cancer (low redundancy),RFE,1,3893,1.0,0.972027972027972,88,2,51,2,2,30,30,,,,
+Breast Cancer (low redundancy),L1,1,3893,1.0,0.965034965034965,88,3,50,2,2,30,30,,,,
+Breast Cancer (low redundancy),ElliotFS,1,3893,1.0,0.958041958041958,88,4,49,2,2,30,10,None,0.8,0.25,0.0
+Breast Cancer (low redundancy),Baseline,2,4424,1.0,0.9790209790209791,89,2,51,1,2,30,30,,,,
+Breast Cancer (low redundancy),MutualInfo,2,4424,1.0,0.9790209790209791,89,2,51,1,2,30,30,,,,
+Breast Cancer (low redundancy),RFE,2,4424,1.0,0.9790209790209791,89,2,51,1,2,30,30,,,,
+Breast Cancer (low redundancy),L1,2,4424,1.0,0.965034965034965,88,3,50,2,2,30,30,,,,
+Breast Cancer (low redundancy),ElliotFS,2,4424,1.0,0.972027972027972,89,3,50,1,2,30,9,None,0.8,0.25,0.0
+Breast Cancer (low redundancy),Baseline,3,2681,1.0,0.958041958041958,88,4,49,2,2,30,30,,,,
+Breast Cancer (low redundancy),MutualInfo,3,2681,1.0,0.958041958041958,88,4,49,2,2,30,30,,,,
+Breast Cancer (low redundancy),RFE,3,2681,1.0,0.958041958041958,88,4,49,2,2,30,30,,,,
+Breast Cancer (low redundancy),L1,3,2681,1.0,0.9370629370629371,86,5,48,4,2,30,30,,,,
+Breast Cancer (low redundancy),ElliotFS,3,2681,1.0,0.9370629370629371,86,5,48,4,2,30,8,None,0.8,0.25,0.0
+Breast Cancer (low redundancy),Baseline,4,2486,1.0,0.972027972027972,88,2,51,2,2,30,30,,,,
+Breast Cancer (low redundancy),MutualInfo,4,2486,1.0,0.972027972027972,88,2,51,2,2,30,30,,,,
+Breast Cancer (low redundancy),RFE,4,2486,1.0,0.972027972027972,88,2,51,2,2,30,30,,,,
+Breast Cancer (low redundancy),L1,4,2486,1.0,0.951048951048951,87,4,49,3,2,30,30,,,,
+Breast Cancer (low redundancy),ElliotFS,4,2486,1.0,0.951048951048951,87,4,49,3,2,30,9,None,0.8,0.25,0.0
+Breast Cancer (low redundancy),Baseline,5,8047,1.0,0.972027972027972,89,3,50,1,2,30,30,,,,
+Breast Cancer (low redundancy),MutualInfo,5,8047,1.0,0.972027972027972,89,3,50,1,2,30,30,,,,
+Breast Cancer (low redundancy),RFE,5,8047,1.0,0.972027972027972,89,3,50,1,2,30,30,,,,
+Breast Cancer (low redundancy),L1,5,8047,1.0,0.9440559440559441,86,4,49,4,2,30,30,,,,
+Breast Cancer (low redundancy),ElliotFS,5,8047,1.0,0.958041958041958,86,2,51,4,2,30,9,None,0.8,0.25,3.0
+Breast Cancer (low redundancy),Baseline,6,3510,1.0,0.9370629370629371,85,4,49,5,2,30,30,,,,
+Breast Cancer (low redundancy),MutualInfo,6,3510,1.0,0.9370629370629371,85,4,49,5,2,30,30,,,,
+Breast Cancer (low redundancy),RFE,6,3510,1.0,0.9370629370629371,85,4,49,5,2,30,30,,,,
+Breast Cancer (low redundancy),L1,6,3510,1.0,0.9230769230769231,85,6,47,5,2,30,30,,,,
+Breast Cancer (low redundancy),ElliotFS,6,3510,1.0,0.9440559440559441,85,3,50,5,2,30,9,None,0.8,0.25,2.0
+Breast Cancer (low redundancy),Baseline,7,9139,1.0,0.986013986013986,90,2,51,0,2,30,30,,,,
+Breast Cancer (low redundancy),MutualInfo,7,9139,1.0,0.986013986013986,90,2,51,0,2,30,30,,,,
+Breast Cancer (low redundancy),RFE,7,9139,1.0,0.986013986013986,90,2,51,0,2,30,30,,,,
+Breast Cancer (low redundancy),L1,7,9139,1.0,0.9790209790209791,90,3,50,0,2,30,30,,,,
+Breast Cancer (low redundancy),ElliotFS,7,9139,1.0,0.986013986013986,90,2,51,0,2,30,7,None,0.8,0.25,2.0
+Breast Cancer (low redundancy),Baseline,8,5262,1.0,0.972027972027972,87,1,52,3,2,30,30,,,,
+Breast Cancer (low redundancy),MutualInfo,8,5262,1.0,0.972027972027972,87,1,52,3,2,30,30,,,,
+Breast Cancer (low redundancy),RFE,8,5262,1.0,0.972027972027972,87,1,52,3,2,30,30,,,,
+Breast Cancer (low redundancy),L1,8,5262,1.0,0.9370629370629371,85,4,49,5,2,30,30,,,,
+Breast Cancer (low redundancy),ElliotFS,8,5262,1.0,0.951048951048951,86,3,50,4,2,30,8,None,0.8,0.25,2.0
+Breast Cancer (low redundancy),Baseline,9,8795,1.0,0.9440559440559441,90,8,45,0,2,30,30,,,,
+Breast Cancer (low redundancy),MutualInfo,9,8795,1.0,0.9440559440559441,90,8,45,0,2,30,30,,,,
+Breast Cancer (low redundancy),RFE,9,8795,1.0,0.9440559440559441,90,8,45,0,2,30,30,,,,
+Breast Cancer (low redundancy),L1,9,8795,1.0,0.9300699300699301,89,9,44,1,2,30,30,,,,
+Breast Cancer (low redundancy),ElliotFS,9,8795,1.0,0.9230769230769231,89,10,43,1,2,30,9,None,0.8,0.25,0.0
+Breast Cancer (low redundancy),Baseline,10,5661,1.0,0.965034965034965,87,2,51,3,2,30,30,,,,
+Breast Cancer (low redundancy),MutualInfo,10,5661,1.0,0.965034965034965,87,2,51,3,2,30,30,,,,
+Breast Cancer (low redundancy),RFE,10,5661,1.0,0.965034965034965,87,2,51,3,2,30,30,,,,
+Breast Cancer (low redundancy),L1,10,5661,1.0,0.951048951048951,86,3,50,4,2,30,30,,,,
+Breast Cancer (low redundancy),ElliotFS,10,5661,1.0,0.951048951048951,86,3,50,4,2,30,11,None,0.8,0.25,0.0
+Breast Cancer (low redundancy),Baseline,11,3996,1.0,0.9440559440559441,85,3,50,5,2,30,30,,,,
+Breast Cancer (low redundancy),MutualInfo,11,3996,1.0,0.9440559440559441,85,3,50,5,2,30,30,,,,
+Breast Cancer (low redundancy),RFE,11,3996,1.0,0.9440559440559441,85,3,50,5,2,30,30,,,,
+Breast Cancer (low redundancy),L1,11,3996,1.0,0.951048951048951,86,3,50,4,2,30,30,,,,
+Breast Cancer (low redundancy),ElliotFS,11,3996,1.0,0.951048951048951,86,3,50,4,2,30,11,None,0.8,0.25,0.0
+Breast Cancer (low redundancy),Baseline,12,7914,1.0,0.958041958041958,87,3,50,3,2,30,30,,,,
+Breast Cancer (low redundancy),MutualInfo,12,7914,1.0,0.958041958041958,87,3,50,3,2,30,30,,,,
+Breast Cancer (low redundancy),RFE,12,7914,1.0,0.958041958041958,87,3,50,3,2,30,30,,,,
+Breast Cancer (low redundancy),L1,12,7914,1.0,0.9230769230769231,84,5,48,6,2,30,30,,,,
+Breast Cancer (low redundancy),ElliotFS,12,7914,1.0,0.9440559440559441,87,5,48,3,2,30,10,None,0.8,0.25,0.0
+Breast Cancer (low redundancy),Baseline,13,2065,1.0,0.9440559440559441,86,4,49,4,2,30,30,,,,
+Breast Cancer (low redundancy),MutualInfo,13,2065,1.0,0.9440559440559441,86,4,49,4,2,30,30,,,,
+Breast Cancer (low redundancy),RFE,13,2065,1.0,0.9440559440559441,86,4,49,4,2,30,30,,,,
+Breast Cancer (low redundancy),L1,13,2065,1.0,0.9370629370629371,85,4,49,5,2,30,30,,,,
+Breast Cancer (low redundancy),ElliotFS,13,2065,1.0,0.9370629370629371,85,4,49,5,2,30,10,None,0.8,0.25,0.0
+Breast Cancer (low redundancy),Baseline,14,2367,1.0,0.9440559440559441,89,7,46,1,2,30,30,,,,
+Breast Cancer (low redundancy),MutualInfo,14,2367,1.0,0.9440559440559441,89,7,46,1,2,30,30,,,,
+Breast Cancer (low redundancy),RFE,14,2367,1.0,0.9440559440559441,89,7,46,1,2,30,30,,,,
+Breast Cancer (low redundancy),L1,14,2367,1.0,0.9370629370629371,88,7,46,2,2,30,30,,,,
+Breast Cancer (low redundancy),ElliotFS,14,2367,1.0,0.9370629370629371,88,7,46,2,2,30,9,None,0.8,0.25,0.0
+Breast Cancer (low redundancy),Baseline,15,9368,1.0,0.9790209790209791,89,2,51,1,2,30,30,,,,
+Breast Cancer (low redundancy),MutualInfo,15,9368,1.0,0.9790209790209791,89,2,51,1,2,30,30,,,,
+Breast Cancer (low redundancy),RFE,15,9368,1.0,0.9790209790209791,89,2,51,1,2,30,30,,,,
+Breast Cancer (low redundancy),L1,15,9368,1.0,0.9790209790209791,89,2,51,1,2,30,30,,,,
+Breast Cancer (low redundancy),ElliotFS,15,9368,1.0,0.9790209790209791,89,2,51,1,2,30,10,None,0.8,0.25,0.0
+Breast Cancer (low redundancy),Baseline,16,325,1.0,0.972027972027972,88,2,51,2,2,30,30,,,,
+Breast Cancer (low redundancy),MutualInfo,16,325,1.0,0.972027972027972,88,2,51,2,2,30,30,,,,
+Breast Cancer (low redundancy),RFE,16,325,1.0,0.972027972027972,88,2,51,2,2,30,30,,,,
+Breast Cancer (low redundancy),L1,16,325,1.0,0.958041958041958,87,3,50,3,2,30,30,,,,
+Breast Cancer (low redundancy),ElliotFS,16,325,1.0,0.965034965034965,87,2,51,3,2,30,11,None,0.8,0.25,0.0
+Breast Cancer (low redundancy),Baseline,17,5024,1.0,0.958041958041958,89,5,48,1,2,30,30,,,,
+Breast Cancer (low redundancy),MutualInfo,17,5024,1.0,0.958041958041958,89,5,48,1,2,30,30,,,,
+Breast Cancer (low redundancy),RFE,17,5024,1.0,0.958041958041958,89,5,48,1,2,30,30,,,,
+Breast Cancer (low redundancy),L1,17,5024,1.0,0.9300699300699301,85,5,48,5,2,30,30,,,,
+Breast Cancer (low redundancy),ElliotFS,17,5024,1.0,0.9300699300699301,85,5,48,5,2,30,9,None,0.8,0.25,0.0
+Breast Cancer (low redundancy),Baseline,18,8360,1.0,0.972027972027972,89,3,50,1,2,30,30,,,,
+Breast Cancer (low redundancy),MutualInfo,18,8360,1.0,0.972027972027972,89,3,50,1,2,30,30,,,,
+Breast Cancer (low redundancy),RFE,18,8360,1.0,0.972027972027972,89,3,50,1,2,30,30,,,,
+Breast Cancer (low redundancy),L1,18,8360,1.0,0.951048951048951,88,5,48,2,2,30,30,,,,
+Breast Cancer (low redundancy),ElliotFS,18,8360,1.0,0.958041958041958,88,4,49,2,2,30,9,None,0.8,0.25,1.0
+Breast Cancer (low redundancy),Baseline,19,3950,1.0,0.958041958041958,88,4,49,2,2,30,30,,,,
+Breast Cancer (low redundancy),MutualInfo,19,3950,1.0,0.958041958041958,88,4,49,2,2,30,30,,,,
+Breast Cancer (low redundancy),RFE,19,3950,1.0,0.958041958041958,88,4,49,2,2,30,30,,,,
+Breast Cancer (low redundancy),L1,19,3950,1.0,0.9440559440559441,86,4,49,4,2,30,30,,,,
+Breast Cancer (low redundancy),ElliotFS,19,3950,1.0,0.9440559440559441,86,4,49,4,2,30,9,None,0.8,0.25,0.0
+Breast Cancer (low redundancy),Baseline,20,6774,1.0,0.958041958041958,88,4,49,2,2,30,30,,,,
+Breast Cancer (low redundancy),MutualInfo,20,6774,1.0,0.958041958041958,88,4,49,2,2,30,30,,,,
+Breast Cancer (low redundancy),RFE,20,6774,1.0,0.958041958041958,88,4,49,2,2,30,30,,,,
+Breast Cancer (low redundancy),L1,20,6774,1.0,0.9370629370629371,87,6,47,3,2,30,30,,,,
+Breast Cancer (low redundancy),ElliotFS,20,6774,1.0,0.951048951048951,88,5,48,2,2,30,10,None,0.8,0.25,0.0
+Breast Cancer (low redundancy),Baseline,21,9838,1.0,0.965034965034965,88,3,50,2,2,30,30,,,,
+Breast Cancer (low redundancy),MutualInfo,21,9838,1.0,0.965034965034965,88,3,50,2,2,30,30,,,,
+Breast Cancer (low redundancy),RFE,21,9838,1.0,0.965034965034965,88,3,50,2,2,30,30,,,,
+Breast Cancer (low redundancy),L1,21,9838,1.0,0.9370629370629371,87,6,47,3,2,30,30,,,,
+Breast Cancer (low redundancy),ElliotFS,21,9838,1.0,0.965034965034965,90,5,48,0,2,30,8,None,0.8,0.25,3.0
+Breast Cancer (low redundancy),Baseline,22,9935,1.0,0.9300699300699301,86,6,47,4,2,30,30,,,,
+Breast Cancer (low redundancy),MutualInfo,22,9935,1.0,0.9300699300699301,86,6,47,4,2,30,30,,,,
+Breast Cancer (low redundancy),RFE,22,9935,1.0,0.9300699300699301,86,6,47,4,2,30,30,,,,
+Breast Cancer (low redundancy),L1,22,9935,1.0,0.916083916083916,85,7,46,5,2,30,30,,,,
+Breast Cancer (low redundancy),ElliotFS,22,9935,1.0,0.9300699300699301,85,5,48,5,2,30,10,None,0.8,0.25,0.0
+Breast Cancer (low redundancy),Baseline,23,6274,1.0,0.958041958041958,87,3,50,3,2,30,30,,,,
+Breast Cancer (low redundancy),MutualInfo,23,6274,1.0,0.958041958041958,87,3,50,3,2,30,30,,,,
+Breast Cancer (low redundancy),RFE,23,6274,1.0,0.958041958041958,87,3,50,3,2,30,30,,,,
+Breast Cancer (low redundancy),L1,23,6274,1.0,0.9300699300699301,86,6,47,4,2,30,30,,,,
+Breast Cancer (low redundancy),ElliotFS,23,6274,1.0,0.9300699300699301,86,6,47,4,2,30,10,None,0.8,0.25,0.0
+Breast Cancer (low redundancy),Baseline,24,2291,1.0,0.9300699300699301,88,8,45,2,2,30,30,,,,
+Breast Cancer (low redundancy),MutualInfo,24,2291,1.0,0.9300699300699301,88,8,45,2,2,30,30,,,,
+Breast Cancer (low redundancy),RFE,24,2291,1.0,0.9300699300699301,88,8,45,2,2,30,30,,,,
+Breast Cancer (low redundancy),L1,24,2291,1.0,0.9230769230769231,87,8,45,3,2,30,30,,,,
+Breast Cancer (low redundancy),ElliotFS,24,2291,1.0,0.9300699300699301,88,8,45,2,2,30,10,None,0.8,0.25,0.0
+Breast Cancer (low redundancy),Baseline,25,3462,1.0,0.972027972027972,89,3,50,1,2,30,30,,,,
+Breast Cancer (low redundancy),MutualInfo,25,3462,1.0,0.972027972027972,89,3,50,1,2,30,30,,,,
+Breast Cancer (low redundancy),RFE,25,3462,1.0,0.972027972027972,89,3,50,1,2,30,30,,,,
+Breast Cancer (low redundancy),L1,25,3462,1.0,0.9440559440559441,88,6,47,2,2,30,30,,,,
+Breast Cancer (low redundancy),ElliotFS,25,3462,1.0,0.958041958041958,89,5,48,1,2,30,8,None,0.8,0.25,2.0
+Breast Cancer (low redundancy),Baseline,26,645,1.0,0.9440559440559441,89,7,46,1,2,30,30,,,,
+Breast Cancer (low redundancy),MutualInfo,26,645,1.0,0.9440559440559441,89,7,46,1,2,30,30,,,,
+Breast Cancer (low redundancy),RFE,26,645,1.0,0.9440559440559441,89,7,46,1,2,30,30,,,,
+Breast Cancer (low redundancy),L1,26,645,1.0,0.9370629370629371,88,7,46,2,2,30,30,,,,
+Breast Cancer (low redundancy),ElliotFS,26,645,1.0,0.9440559440559441,89,7,46,1,2,30,8,None,0.8,0.25,1.0
+Breast Cancer (low redundancy),Baseline,27,4254,1.0,0.958041958041958,87,3,50,3,2,30,30,,,,
+Breast Cancer (low redundancy),MutualInfo,27,4254,1.0,0.958041958041958,87,3,50,3,2,30,30,,,,
+Breast Cancer (low redundancy),RFE,27,4254,1.0,0.958041958041958,87,3,50,3,2,30,30,,,,
+Breast Cancer (low redundancy),L1,27,4254,1.0,0.951048951048951,86,3,50,4,2,30,30,,,,
+Breast Cancer (low redundancy),ElliotFS,27,4254,1.0,0.965034965034965,86,1,52,4,2,30,7,None,0.8,0.25,3.0
+Breast Cancer (low redundancy),Baseline,28,4664,1.0,0.972027972027972,89,3,50,1,2,30,30,,,,
+Breast Cancer (low redundancy),MutualInfo,28,4664,1.0,0.972027972027972,89,3,50,1,2,30,30,,,,
+Breast Cancer (low redundancy),RFE,28,4664,1.0,0.972027972027972,89,3,50,1,2,30,30,,,,
+Breast Cancer (low redundancy),L1,28,4664,1.0,0.9440559440559441,87,5,48,3,2,30,30,,,,
+Breast Cancer (low redundancy),ElliotFS,28,4664,1.0,0.9440559440559441,87,5,48,3,2,30,9,None,0.8,0.25,0.0
+Breast Cancer (low redundancy),Baseline,29,1282,1.0,0.951048951048951,89,6,47,1,2,30,30,,,,
+Breast Cancer (low redundancy),MutualInfo,29,1282,1.0,0.951048951048951,89,6,47,1,2,30,30,,,,
+Breast Cancer (low redundancy),RFE,29,1282,1.0,0.951048951048951,89,6,47,1,2,30,30,,,,
+Breast Cancer (low redundancy),L1,29,1282,1.0,0.958041958041958,89,5,48,1,2,30,30,,,,
+Breast Cancer (low redundancy),ElliotFS,29,1282,1.0,0.958041958041958,89,5,48,1,2,30,10,None,0.8,0.25,0.0
+Breast Cancer (low redundancy),Baseline,30,5379,1.0,0.993006993006993,89,0,53,1,2,30,30,,,,
+Breast Cancer (low redundancy),MutualInfo,30,5379,1.0,0.993006993006993,89,0,53,1,2,30,30,,,,
+Breast Cancer (low redundancy),RFE,30,5379,1.0,0.993006993006993,89,0,53,1,2,30,30,,,,
+Breast Cancer (low redundancy),L1,30,5379,1.0,0.9790209790209791,89,2,51,1,2,30,30,,,,
+Breast Cancer (low redundancy),ElliotFS,30,5379,1.0,0.972027972027972,88,2,51,2,2,30,9,None,0.8,0.25,0.0
+Breast Cancer (low redundancy),Baseline,31,6358,1.0,0.965034965034965,89,4,49,1,2,30,30,,,,
+Breast Cancer (low redundancy),MutualInfo,31,6358,1.0,0.965034965034965,89,4,49,1,2,30,30,,,,
+Breast Cancer (low redundancy),RFE,31,6358,1.0,0.965034965034965,89,4,49,1,2,30,30,,,,
+Breast Cancer (low redundancy),L1,31,6358,1.0,0.951048951048951,88,5,48,2,2,30,30,,,,
+Breast Cancer (low redundancy),ElliotFS,31,6358,1.0,0.951048951048951,87,4,49,3,2,30,9,None,0.8,0.25,1.0
+Breast Cancer (low redundancy),Baseline,32,9288,1.0,0.951048951048951,86,3,50,4,2,30,30,,,,
+Breast Cancer (low redundancy),MutualInfo,32,9288,1.0,0.951048951048951,86,3,50,4,2,30,30,,,,
+Breast Cancer (low redundancy),RFE,32,9288,1.0,0.951048951048951,86,3,50,4,2,30,30,,,,
+Breast Cancer (low redundancy),L1,32,9288,1.0,0.958041958041958,86,2,51,4,2,30,30,,,,
+Breast Cancer (low redundancy),ElliotFS,32,9288,1.0,0.958041958041958,86,2,51,4,2,30,10,None,0.8,0.25,0.0
+Breast Cancer (low redundancy),Baseline,33,3078,1.0,0.958041958041958,85,1,52,5,2,30,30,,,,
+Breast Cancer (low redundancy),MutualInfo,33,3078,1.0,0.958041958041958,85,1,52,5,2,30,30,,,,
+Breast Cancer (low redundancy),RFE,33,3078,1.0,0.958041958041958,85,1,52,5,2,30,30,,,,
+Breast Cancer (low redundancy),L1,33,3078,1.0,0.951048951048951,85,2,51,5,2,30,30,,,,
+Breast Cancer (low redundancy),ElliotFS,33,3078,1.0,0.951048951048951,85,2,51,5,2,30,6,None,0.8,0.25,3.0
+Breast Cancer (low redundancy),Baseline,34,175,1.0,0.9300699300699301,87,7,46,3,2,30,30,,,,
+Breast Cancer (low redundancy),MutualInfo,34,175,1.0,0.9300699300699301,87,7,46,3,2,30,30,,,,
+Breast Cancer (low redundancy),RFE,34,175,1.0,0.9300699300699301,87,7,46,3,2,30,30,,,,
+Breast Cancer (low redundancy),L1,34,175,1.0,0.9090909090909091,85,8,45,5,2,30,30,,,,
+Breast Cancer (low redundancy),ElliotFS,34,175,1.0,0.916083916083916,86,8,45,4,2,30,8,None,0.8,0.25,3.0
+Breast Cancer (low redundancy),Baseline,35,4296,1.0,0.951048951048951,88,5,48,2,2,30,30,,,,
+Breast Cancer (low redundancy),MutualInfo,35,4296,1.0,0.951048951048951,88,5,48,2,2,30,30,,,,
+Breast Cancer (low redundancy),RFE,35,4296,1.0,0.951048951048951,88,5,48,2,2,30,30,,,,
+Breast Cancer (low redundancy),L1,35,4296,1.0,0.951048951048951,88,5,48,2,2,30,30,,,,
+Breast Cancer (low redundancy),ElliotFS,35,4296,1.0,0.958041958041958,88,4,49,2,2,30,11,None,0.8,0.25,0.0
+Breast Cancer (low redundancy),Baseline,36,6275,1.0,0.958041958041958,88,4,49,2,2,30,30,,,,
+Breast Cancer (low redundancy),MutualInfo,36,6275,1.0,0.958041958041958,88,4,49,2,2,30,30,,,,
+Breast Cancer (low redundancy),RFE,36,6275,1.0,0.958041958041958,88,4,49,2,2,30,30,,,,
+Breast Cancer (low redundancy),L1,36,6275,1.0,0.9370629370629371,84,3,50,6,2,30,30,,,,
+Breast Cancer (low redundancy),ElliotFS,36,6275,1.0,0.951048951048951,86,3,50,4,2,30,8,None,0.8,0.25,1.0
+Breast Cancer (low redundancy),Baseline,37,1236,1.0,0.972027972027972,87,1,52,3,2,30,30,,,,
+Breast Cancer (low redundancy),MutualInfo,37,1236,1.0,0.972027972027972,87,1,52,3,2,30,30,,,,
+Breast Cancer (low redundancy),RFE,37,1236,1.0,0.972027972027972,87,1,52,3,2,30,30,,,,
+Breast Cancer (low redundancy),L1,37,1236,1.0,0.972027972027972,87,1,52,3,2,30,30,,,,
+Breast Cancer (low redundancy),ElliotFS,37,1236,1.0,0.972027972027972,87,1,52,3,2,30,10,None,0.8,0.25,0.0
+Breast Cancer (low redundancy),Baseline,38,9420,1.0,0.951048951048951,89,6,47,1,2,30,30,,,,
+Breast Cancer (low redundancy),MutualInfo,38,9420,1.0,0.951048951048951,89,6,47,1,2,30,30,,,,
+Breast Cancer (low redundancy),RFE,38,9420,1.0,0.951048951048951,89,6,47,1,2,30,30,,,,
+Breast Cancer (low redundancy),L1,38,9420,1.0,0.951048951048951,89,6,47,1,2,30,30,,,,
+Breast Cancer (low redundancy),ElliotFS,38,9420,1.0,0.9440559440559441,88,6,47,2,2,30,8,None,0.8,0.25,0.0
+Breast Cancer (low redundancy),Baseline,39,8754,1.0,0.9020979020979021,84,8,45,6,2,30,30,,,,
+Breast Cancer (low redundancy),MutualInfo,39,8754,1.0,0.9020979020979021,84,8,45,6,2,30,30,,,,
+Breast Cancer (low redundancy),RFE,39,8754,1.0,0.9020979020979021,84,8,45,6,2,30,30,,,,
+Breast Cancer (low redundancy),L1,39,8754,1.0,0.9090909090909091,84,7,46,6,2,30,30,,,,
+Breast Cancer (low redundancy),ElliotFS,39,8754,1.0,0.9090909090909091,84,7,46,6,2,30,11,None,0.8,0.25,0.0
+Breast Cancer (low redundancy),Baseline,40,9446,1.0,0.972027972027972,89,3,50,1,2,30,30,,,,
+Breast Cancer (low redundancy),MutualInfo,40,9446,1.0,0.972027972027972,89,3,50,1,2,30,30,,,,
+Breast Cancer (low redundancy),RFE,40,9446,1.0,0.972027972027972,89,3,50,1,2,30,30,,,,
+Breast Cancer (low redundancy),L1,40,9446,1.0,0.965034965034965,88,3,50,2,2,30,30,,,,
+Breast Cancer (low redundancy),ElliotFS,40,9446,1.0,0.972027972027972,89,3,50,1,2,30,11,None,0.8,0.25,0.0
+Breast Cancer (low redundancy),Baseline,41,7101,1.0,0.972027972027972,87,1,52,3,2,30,30,,,,
+Breast Cancer (low redundancy),MutualInfo,41,7101,1.0,0.972027972027972,87,1,52,3,2,30,30,,,,
+Breast Cancer (low redundancy),RFE,41,7101,1.0,0.972027972027972,87,1,52,3,2,30,30,,,,
+Breast Cancer (low redundancy),L1,41,7101,1.0,0.951048951048951,86,3,50,4,2,30,30,,,,
+Breast Cancer (low redundancy),ElliotFS,41,7101,1.0,0.951048951048951,86,3,50,4,2,30,10,None,0.8,0.25,0.0
+Breast Cancer (low redundancy),Baseline,42,8648,1.0,0.965034965034965,88,3,50,2,2,30,30,,,,
+Breast Cancer (low redundancy),MutualInfo,42,8648,1.0,0.965034965034965,88,3,50,2,2,30,30,,,,
+Breast Cancer (low redundancy),RFE,42,8648,1.0,0.965034965034965,88,3,50,2,2,30,30,,,,
+Breast Cancer (low redundancy),L1,42,8648,1.0,0.9440559440559441,86,4,49,4,2,30,30,,,,
+Breast Cancer (low redundancy),ElliotFS,42,8648,1.0,0.951048951048951,86,3,50,4,2,30,8,None,0.8,0.25,2.0
+Breast Cancer (low redundancy),Baseline,43,5667,1.0,0.958041958041958,89,5,48,1,2,30,30,,,,
+Breast Cancer (low redundancy),MutualInfo,43,5667,1.0,0.958041958041958,89,5,48,1,2,30,30,,,,
+Breast Cancer (low redundancy),RFE,43,5667,1.0,0.958041958041958,89,5,48,1,2,30,30,,,,
+Breast Cancer (low redundancy),L1,43,5667,1.0,0.9300699300699301,89,9,44,1,2,30,30,,,,
+Breast Cancer (low redundancy),ElliotFS,43,5667,1.0,0.9370629370629371,89,8,45,1,2,30,9,None,0.8,0.25,0.0
+Breast Cancer (low redundancy),Baseline,44,9009,1.0,0.958041958041958,88,4,49,2,2,30,30,,,,
+Breast Cancer (low redundancy),MutualInfo,44,9009,1.0,0.958041958041958,88,4,49,2,2,30,30,,,,
+Breast Cancer (low redundancy),RFE,44,9009,1.0,0.958041958041958,88,4,49,2,2,30,30,,,,
+Breast Cancer (low redundancy),L1,44,9009,1.0,0.951048951048951,88,5,48,2,2,30,30,,,,
+Breast Cancer (low redundancy),ElliotFS,44,9009,1.0,0.951048951048951,88,5,48,2,2,30,10,None,0.8,0.25,0.0
+Breast Cancer (low redundancy),Baseline,45,4482,1.0,0.9790209790209791,90,3,50,0,2,30,30,,,,
+Breast Cancer (low redundancy),MutualInfo,45,4482,1.0,0.9790209790209791,90,3,50,0,2,30,30,,,,
+Breast Cancer (low redundancy),RFE,45,4482,1.0,0.9790209790209791,90,3,50,0,2,30,30,,,,
+Breast Cancer (low redundancy),L1,45,4482,1.0,0.958041958041958,89,5,48,1,2,30,30,,,,
+Breast Cancer (low redundancy),ElliotFS,45,4482,1.0,0.958041958041958,89,5,48,1,2,30,9,None,0.8,0.25,1.0
+Breast Cancer (low redundancy),Baseline,46,6813,1.0,0.958041958041958,89,5,48,1,2,30,30,,,,
+Breast Cancer (low redundancy),MutualInfo,46,6813,1.0,0.958041958041958,89,5,48,1,2,30,30,,,,
+Breast Cancer (low redundancy),RFE,46,6813,1.0,0.958041958041958,89,5,48,1,2,30,30,,,,
+Breast Cancer (low redundancy),L1,46,6813,1.0,0.951048951048951,89,6,47,1,2,30,30,,,,
+Breast Cancer (low redundancy),ElliotFS,46,6813,1.0,0.951048951048951,89,6,47,1,2,30,9,None,0.8,0.25,0.0
+Breast Cancer (low redundancy),Baseline,47,1611,1.0,0.9790209790209791,87,0,53,3,2,30,30,,,,
+Breast Cancer (low redundancy),MutualInfo,47,1611,1.0,0.9790209790209791,87,0,53,3,2,30,30,,,,
+Breast Cancer (low redundancy),RFE,47,1611,1.0,0.9790209790209791,87,0,53,3,2,30,30,,,,
+Breast Cancer (low redundancy),L1,47,1611,1.0,0.958041958041958,86,2,51,4,2,30,30,,,,
+Breast Cancer (low redundancy),ElliotFS,47,1611,1.0,0.958041958041958,86,2,51,4,2,30,10,None,0.8,0.25,0.0
+Breast Cancer (low redundancy),Baseline,48,949,1.0,0.965034965034965,88,3,50,2,2,30,30,,,,
+Breast Cancer (low redundancy),MutualInfo,48,949,1.0,0.965034965034965,88,3,50,2,2,30,30,,,,
+Breast Cancer (low redundancy),RFE,48,949,1.0,0.965034965034965,88,3,50,2,2,30,30,,,,
+Breast Cancer (low redundancy),L1,48,949,1.0,0.951048951048951,86,3,50,4,2,30,30,,,,
+Breast Cancer (low redundancy),ElliotFS,48,949,1.0,0.9440559440559441,86,4,49,4,2,30,7,None,0.8,0.25,3.0
+Breast Cancer (low redundancy),Baseline,49,6682,1.0,0.9300699300699301,85,5,48,5,2,30,30,,,,
+Breast Cancer (low redundancy),MutualInfo,49,6682,1.0,0.9300699300699301,85,5,48,5,2,30,30,,,,
+Breast Cancer (low redundancy),RFE,49,6682,1.0,0.9300699300699301,85,5,48,5,2,30,30,,,,
+Breast Cancer (low redundancy),L1,49,6682,1.0,0.916083916083916,83,5,48,7,2,30,30,,,,
+Breast Cancer (low redundancy),ElliotFS,49,6682,1.0,0.9230769230769231,84,5,48,6,2,30,9,None,0.8,0.25,0.0
+Breast Cancer (low redundancy),Baseline,50,3318,1.0,0.972027972027972,87,1,52,3,2,30,30,,,,
+Breast Cancer (low redundancy),MutualInfo,50,3318,1.0,0.972027972027972,87,1,52,3,2,30,30,,,,
+Breast Cancer (low redundancy),RFE,50,3318,1.0,0.972027972027972,87,1,52,3,2,30,30,,,,
+Breast Cancer (low redundancy),L1,50,3318,1.0,0.951048951048951,87,4,49,3,2,30,30,,,,
+Breast Cancer (low redundancy),ElliotFS,50,3318,1.0,0.951048951048951,87,4,49,3,2,30,10,None,0.8,0.25,0.0
+Digits (moderate redundancy),Baseline,1,3893,1.0,0.9733333333333334,438,12,-12,12,10,64,64,,,,
+Digits (moderate redundancy),MutualInfo,1,3893,1.0,0.9733333333333334,438,12,-12,12,10,64,32,,,,
+Digits (moderate redundancy),RFE,1,3893,1.0,0.98,441,9,-9,9,10,64,32,,,,
+Digits (moderate redundancy),L1,1,3893,1.0,0.9755555555555555,439,11,-11,11,10,64,32,,,,
+Digits (moderate redundancy),ElliotFS,1,3893,1.0,0.9688888888888889,436,14,-14,14,10,64,22,None,0.8,0.25,0.0
+Digits (moderate redundancy),Baseline,2,4424,1.0,0.9822222222222222,442,8,-8,8,10,64,64,,,,
+Digits (moderate redundancy),MutualInfo,2,4424,1.0,0.9822222222222222,442,8,-8,8,10,64,32,,,,
+Digits (moderate redundancy),RFE,2,4424,1.0,0.9777777777777777,440,10,-10,10,10,64,32,,,,
+Digits (moderate redundancy),L1,2,4424,1.0,0.9777777777777777,440,10,-10,10,10,64,32,,,,
+Digits (moderate redundancy),ElliotFS,2,4424,1.0,0.9622222222222222,433,17,-17,17,10,64,21,None,0.8,0.25,0.0
+Digits (moderate redundancy),Baseline,3,2681,1.0,0.9733333333333334,438,12,-12,12,10,64,64,,,,
+Digits (moderate redundancy),MutualInfo,3,2681,1.0,0.9733333333333334,438,12,-12,12,10,64,32,,,,
+Digits (moderate redundancy),RFE,3,2681,1.0,0.9711111111111111,437,13,-13,13,10,64,32,,,,
+Digits (moderate redundancy),L1,3,2681,1.0,0.9711111111111111,437,13,-13,13,10,64,32,,,,
+Digits (moderate redundancy),ElliotFS,3,2681,1.0,0.9622222222222222,433,17,-17,17,10,64,18,None,0.8,0.25,0.0
+Digits (moderate redundancy),Baseline,4,2486,1.0,0.9822222222222222,442,8,-8,8,10,64,64,,,,
+Digits (moderate redundancy),MutualInfo,4,2486,1.0,0.9822222222222222,442,8,-8,8,10,64,32,,,,
+Digits (moderate redundancy),RFE,4,2486,1.0,0.9777777777777777,440,10,-10,10,10,64,32,,,,
+Digits (moderate redundancy),L1,4,2486,1.0,0.9777777777777777,440,10,-10,10,10,64,32,,,,
+Digits (moderate redundancy),ElliotFS,4,2486,1.0,0.9688888888888889,436,14,-14,14,10,64,21,None,0.8,0.25,0.0
+Digits (moderate redundancy),Baseline,5,8047,1.0,0.9733333333333334,438,12,-12,12,10,64,64,,,,
+Digits (moderate redundancy),MutualInfo,5,8047,1.0,0.9733333333333334,438,12,-12,12,10,64,32,,,,
+Digits (moderate redundancy),RFE,5,8047,1.0,0.9666666666666667,435,15,-15,15,10,64,32,,,,
+Digits (moderate redundancy),L1,5,8047,1.0,0.9688888888888889,436,14,-14,14,10,64,32,,,,
+Digits (moderate redundancy),ElliotFS,5,8047,1.0,0.9577777777777777,431,19,-19,19,10,64,19,None,0.8,0.25,1.0
+Digits (moderate redundancy),Baseline,6,3510,1.0,0.9688888888888889,436,14,-14,14,10,64,64,,,,
+Digits (moderate redundancy),MutualInfo,6,3510,1.0,0.9555555555555556,430,20,-20,20,10,64,32,,,,
+Digits (moderate redundancy),RFE,6,3510,1.0,0.9688888888888889,436,14,-14,14,10,64,32,,,,
+Digits (moderate redundancy),L1,6,3510,1.0,0.9688888888888889,436,14,-14,14,10,64,32,,,,
+Digits (moderate redundancy),ElliotFS,6,3510,1.0,0.9466666666666667,426,24,-24,24,10,64,21,None,0.8,0.25,0.0
+Digits (moderate redundancy),Baseline,7,9139,1.0,0.98,441,9,-9,9,10,64,64,,,,
+Digits (moderate redundancy),MutualInfo,7,9139,1.0,0.98,441,9,-9,9,10,64,32,,,,
+Digits (moderate redundancy),RFE,7,9139,1.0,0.9777777777777777,440,10,-10,10,10,64,32,,,,
+Digits (moderate redundancy),L1,7,9139,1.0,0.9733333333333334,438,12,-12,12,10,64,32,,,,
+Digits (moderate redundancy),ElliotFS,7,9139,1.0,0.9644444444444444,434,16,-16,16,10,64,17,None,0.8,0.25,1.0
+Digits (moderate redundancy),Baseline,8,5262,1.0,0.9888888888888889,445,5,-5,5,10,64,64,,,,
+Digits (moderate redundancy),MutualInfo,8,5262,1.0,0.98,441,9,-9,9,10,64,32,,,,
+Digits (moderate redundancy),RFE,8,5262,1.0,0.9822222222222222,442,8,-8,8,10,64,32,,,,
+Digits (moderate redundancy),L1,8,5262,1.0,0.9844444444444445,443,7,-7,7,10,64,32,,,,
+Digits (moderate redundancy),ElliotFS,8,5262,1.0,0.9577777777777777,431,19,-19,19,10,64,20,None,0.8,0.25,0.0
+Digits (moderate redundancy),Baseline,9,8795,1.0,0.98,441,9,-9,9,10,64,64,,,,
+Digits (moderate redundancy),MutualInfo,9,8795,1.0,0.98,441,9,-9,9,10,64,32,,,,
+Digits (moderate redundancy),RFE,9,8795,1.0,0.98,441,9,-9,9,10,64,32,,,,
+Digits (moderate redundancy),L1,9,8795,1.0,0.9777777777777777,440,10,-10,10,10,64,32,,,,
+Digits (moderate redundancy),ElliotFS,9,8795,1.0,0.9622222222222222,433,17,-17,17,10,64,23,None,0.8,0.25,0.0
+Digits (moderate redundancy),Baseline,10,5661,1.0,0.9866666666666667,444,6,-6,6,10,64,64,,,,
+Digits (moderate redundancy),MutualInfo,10,5661,1.0,0.9755555555555555,439,11,-11,11,10,64,32,,,,
+Digits (moderate redundancy),RFE,10,5661,1.0,0.9822222222222222,442,8,-8,8,10,64,32,,,,
+Digits (moderate redundancy),L1,10,5661,1.0,0.9822222222222222,442,8,-8,8,10,64,32,,,,
+Digits (moderate redundancy),ElliotFS,10,5661,1.0,0.96,432,18,-18,18,10,64,21,None,0.8,0.25,0.0
+Digits (moderate redundancy),Baseline,11,3996,1.0,0.9755555555555555,439,11,-11,11,10,64,64,,,,
+Digits (moderate redundancy),MutualInfo,11,3996,1.0,0.9688888888888889,436,14,-14,14,10,64,32,,,,
+Digits (moderate redundancy),RFE,11,3996,1.0,0.9733333333333334,438,12,-12,12,10,64,32,,,,
+Digits (moderate redundancy),L1,11,3996,1.0,0.9733333333333334,438,12,-12,12,10,64,32,,,,
+Digits (moderate redundancy),ElliotFS,11,3996,1.0,0.9666666666666667,435,15,-15,15,10,64,21,None,0.8,0.25,0.0
+Digits (moderate redundancy),Baseline,12,7914,1.0,0.9755555555555555,439,11,-11,11,10,64,64,,,,
+Digits (moderate redundancy),MutualInfo,12,7914,1.0,0.9711111111111111,437,13,-13,13,10,64,32,,,,
+Digits (moderate redundancy),RFE,12,7914,1.0,0.9733333333333334,438,12,-12,12,10,64,32,,,,
+Digits (moderate redundancy),L1,12,7914,1.0,0.9666666666666667,435,15,-15,15,10,64,32,,,,
+Digits (moderate redundancy),ElliotFS,12,7914,1.0,0.9577777777777777,431,19,-19,19,10,64,18,None,0.8,0.25,0.0
+Digits (moderate redundancy),Baseline,13,2065,1.0,0.98,441,9,-9,9,10,64,64,,,,
+Digits (moderate redundancy),MutualInfo,13,2065,1.0,0.9711111111111111,437,13,-13,13,10,64,32,,,,
+Digits (moderate redundancy),RFE,13,2065,1.0,0.9733333333333334,438,12,-12,12,10,64,32,,,,
+Digits (moderate redundancy),L1,13,2065,1.0,0.9755555555555555,439,11,-11,11,10,64,32,,,,
+Digits (moderate redundancy),ElliotFS,13,2065,1.0,0.9644444444444444,434,16,-16,16,10,64,21,None,0.8,0.25,0.0
+Digits (moderate redundancy),Baseline,14,2367,1.0,0.9711111111111111,437,13,-13,13,10,64,64,,,,
+Digits (moderate redundancy),MutualInfo,14,2367,1.0,0.9666666666666667,435,15,-15,15,10,64,32,,,,
+Digits (moderate redundancy),RFE,14,2367,1.0,0.9644444444444444,434,16,-16,16,10,64,32,,,,
+Digits (moderate redundancy),L1,14,2367,1.0,0.9555555555555556,430,20,-20,20,10,64,32,,,,
+Digits (moderate redundancy),ElliotFS,14,2367,1.0,0.9422222222222222,424,26,-26,26,10,64,20,None,0.8,0.25,0.0
+Digits (moderate redundancy),Baseline,15,9368,1.0,0.9844444444444445,443,7,-7,7,10,64,64,,,,
+Digits (moderate redundancy),MutualInfo,15,9368,1.0,0.9844444444444445,443,7,-7,7,10,64,32,,,,
+Digits (moderate redundancy),RFE,15,9368,1.0,0.98,441,9,-9,9,10,64,32,,,,
+Digits (moderate redundancy),L1,15,9368,1.0,0.9844444444444445,443,7,-7,7,10,64,32,,,,
+Digits (moderate redundancy),ElliotFS,15,9368,1.0,0.9666666666666667,435,15,-15,15,10,64,20,None,0.8,0.25,0.0
+Digits (moderate redundancy),Baseline,16,325,1.0,0.9666666666666667,435,15,-15,15,10,64,64,,,,
+Digits (moderate redundancy),MutualInfo,16,325,1.0,0.9733333333333334,438,12,-12,12,10,64,32,,,,
+Digits (moderate redundancy),RFE,16,325,1.0,0.9622222222222222,433,17,-17,17,10,64,32,,,,
+Digits (moderate redundancy),L1,16,325,1.0,0.9666666666666667,435,15,-15,15,10,64,32,,,,
+Digits (moderate redundancy),ElliotFS,16,325,1.0,0.9555555555555556,430,20,-20,20,10,64,20,None,0.8,0.25,0.0
+Digits (moderate redundancy),Baseline,17,5024,1.0,0.9755555555555555,439,11,-11,11,10,64,64,,,,
+Digits (moderate redundancy),MutualInfo,17,5024,1.0,0.9777777777777777,440,10,-10,10,10,64,32,,,,
+Digits (moderate redundancy),RFE,17,5024,1.0,0.9711111111111111,437,13,-13,13,10,64,32,,,,
+Digits (moderate redundancy),L1,17,5024,1.0,0.9711111111111111,437,13,-13,13,10,64,32,,,,
+Digits (moderate redundancy),ElliotFS,17,5024,1.0,0.9666666666666667,435,15,-15,15,10,64,20,None,0.8,0.25,0.0
+Digits (moderate redundancy),Baseline,18,8360,1.0,0.9755555555555555,439,11,-11,11,10,64,64,,,,
+Digits (moderate redundancy),MutualInfo,18,8360,1.0,0.9688888888888889,436,14,-14,14,10,64,32,,,,
+Digits (moderate redundancy),RFE,18,8360,1.0,0.9711111111111111,437,13,-13,13,10,64,32,,,,
+Digits (moderate redundancy),L1,18,8360,1.0,0.9711111111111111,437,13,-13,13,10,64,32,,,,
+Digits (moderate redundancy),ElliotFS,18,8360,1.0,0.9511111111111111,428,22,-22,22,10,64,19,None,0.8,0.25,1.0
+Digits (moderate redundancy),Baseline,19,3950,1.0,0.98,441,9,-9,9,10,64,64,,,,
+Digits (moderate redundancy),MutualInfo,19,3950,1.0,0.9777777777777777,440,10,-10,10,10,64,32,,,,
+Digits (moderate redundancy),RFE,19,3950,1.0,0.9777777777777777,440,10,-10,10,10,64,32,,,,
+Digits (moderate redundancy),L1,19,3950,1.0,0.9777777777777777,440,10,-10,10,10,64,32,,,,
+Digits (moderate redundancy),ElliotFS,19,3950,1.0,0.9533333333333334,429,21,-21,21,10,64,18,None,0.8,0.25,1.0
+Digits (moderate redundancy),Baseline,20,6774,1.0,0.9777777777777777,440,10,-10,10,10,64,64,,,,
+Digits (moderate redundancy),MutualInfo,20,6774,1.0,0.9733333333333334,438,12,-12,12,10,64,32,,,,
+Digits (moderate redundancy),RFE,20,6774,1.0,0.9755555555555555,439,11,-11,11,10,64,32,,,,
+Digits (moderate redundancy),L1,20,6774,1.0,0.9755555555555555,439,11,-11,11,10,64,32,,,,
+Digits (moderate redundancy),ElliotFS,20,6774,1.0,0.9555555555555556,430,20,-20,20,10,64,18,None,0.8,0.25,3.0
+Digits (moderate redundancy),Baseline,21,9838,1.0,0.9711111111111111,437,13,-13,13,10,64,64,,,,
+Digits (moderate redundancy),MutualInfo,21,9838,1.0,0.9666666666666667,435,15,-15,15,10,64,32,,,,
+Digits (moderate redundancy),RFE,21,9838,1.0,0.9733333333333334,438,12,-12,12,10,64,32,,,,
+Digits (moderate redundancy),L1,21,9838,1.0,0.9711111111111111,437,13,-13,13,10,64,32,,,,
+Digits (moderate redundancy),ElliotFS,21,9838,1.0,0.9555555555555556,430,20,-20,20,10,64,20,None,0.8,0.25,0.0
+Digits (moderate redundancy),Baseline,22,9935,1.0,0.98,441,9,-9,9,10,64,64,,,,
+Digits (moderate redundancy),MutualInfo,22,9935,1.0,0.9733333333333334,438,12,-12,12,10,64,32,,,,
+Digits (moderate redundancy),RFE,22,9935,1.0,0.9688888888888889,436,14,-14,14,10,64,32,,,,
+Digits (moderate redundancy),L1,22,9935,1.0,0.9666666666666667,435,15,-15,15,10,64,32,,,,
+Digits (moderate redundancy),ElliotFS,22,9935,1.0,0.9733333333333334,438,12,-12,12,10,64,21,None,0.8,0.25,0.0
+Digits (moderate redundancy),Baseline,23,6274,1.0,0.9777777777777777,440,10,-10,10,10,64,64,,,,
+Digits (moderate redundancy),MutualInfo,23,6274,1.0,0.9733333333333334,438,12,-12,12,10,64,32,,,,
+Digits (moderate redundancy),RFE,23,6274,1.0,0.9755555555555555,439,11,-11,11,10,64,32,,,,
+Digits (moderate redundancy),L1,23,6274,1.0,0.9733333333333334,438,12,-12,12,10,64,32,,,,
+Digits (moderate redundancy),ElliotFS,23,6274,1.0,0.96,432,18,-18,18,10,64,21,None,0.8,0.25,1.0
+Digits (moderate redundancy),Baseline,24,2291,1.0,0.9733333333333334,438,12,-12,12,10,64,64,,,,
+Digits (moderate redundancy),MutualInfo,24,2291,1.0,0.9777777777777777,440,10,-10,10,10,64,32,,,,
+Digits (moderate redundancy),RFE,24,2291,1.0,0.98,441,9,-9,9,10,64,32,,,,
+Digits (moderate redundancy),L1,24,2291,1.0,0.9755555555555555,439,11,-11,11,10,64,32,,,,
+Digits (moderate redundancy),ElliotFS,24,2291,1.0,0.9644444444444444,434,16,-16,16,10,64,21,None,0.8,0.25,0.0
+Digits (moderate redundancy),Baseline,25,3462,1.0,0.9733333333333334,438,12,-12,12,10,64,64,,,,
+Digits (moderate redundancy),MutualInfo,25,3462,1.0,0.9666666666666667,435,15,-15,15,10,64,32,,,,
+Digits (moderate redundancy),RFE,25,3462,1.0,0.9711111111111111,437,13,-13,13,10,64,32,,,,
+Digits (moderate redundancy),L1,25,3462,1.0,0.9711111111111111,437,13,-13,13,10,64,32,,,,
+Digits (moderate redundancy),ElliotFS,25,3462,1.0,0.9466666666666667,426,24,-24,24,10,64,19,None,0.8,0.25,1.0
+Digits (moderate redundancy),Baseline,26,645,1.0,0.9733333333333334,438,12,-12,12,10,64,64,,,,
+Digits (moderate redundancy),MutualInfo,26,645,1.0,0.9733333333333334,438,12,-12,12,10,64,32,,,,
+Digits (moderate redundancy),RFE,26,645,1.0,0.9755555555555555,439,11,-11,11,10,64,32,,,,
+Digits (moderate redundancy),L1,26,645,1.0,0.9644444444444444,434,16,-16,16,10,64,32,,,,
+Digits (moderate redundancy),ElliotFS,26,645,1.0,0.9511111111111111,428,22,-22,22,10,64,19,None,0.8,0.25,0.0
+Digits (moderate redundancy),Baseline,27,4254,1.0,0.9755555555555555,439,11,-11,11,10,64,64,,,,
+Digits (moderate redundancy),MutualInfo,27,4254,1.0,0.9711111111111111,437,13,-13,13,10,64,32,,,,
+Digits (moderate redundancy),RFE,27,4254,1.0,0.9755555555555555,439,11,-11,11,10,64,32,,,,
+Digits (moderate redundancy),L1,27,4254,1.0,0.9777777777777777,440,10,-10,10,10,64,32,,,,
+Digits (moderate redundancy),ElliotFS,27,4254,1.0,0.9622222222222222,433,17,-17,17,10,64,22,None,0.8,0.25,0.0
+Digits (moderate redundancy),Baseline,28,4664,1.0,0.9777777777777777,440,10,-10,10,10,64,64,,,,
+Digits (moderate redundancy),MutualInfo,28,4664,1.0,0.9755555555555555,439,11,-11,11,10,64,32,,,,
+Digits (moderate redundancy),RFE,28,4664,1.0,0.9777777777777777,440,10,-10,10,10,64,32,,,,
+Digits (moderate redundancy),L1,28,4664,1.0,0.9777777777777777,440,10,-10,10,10,64,32,,,,
+Digits (moderate redundancy),ElliotFS,28,4664,1.0,0.9688888888888889,436,14,-14,14,10,64,21,None,0.8,0.25,0.0
+Digits (moderate redundancy),Baseline,29,1282,1.0,0.9822222222222222,442,8,-8,8,10,64,64,,,,
+Digits (moderate redundancy),MutualInfo,29,1282,1.0,0.9711111111111111,437,13,-13,13,10,64,32,,,,
+Digits (moderate redundancy),RFE,29,1282,1.0,0.9777777777777777,440,10,-10,10,10,64,32,,,,
+Digits (moderate redundancy),L1,29,1282,1.0,0.9777777777777777,440,10,-10,10,10,64,32,,,,
+Digits (moderate redundancy),ElliotFS,29,1282,1.0,0.9666666666666667,435,15,-15,15,10,64,22,None,0.8,0.25,0.0
+Digits (moderate redundancy),Baseline,30,5379,1.0,0.9711111111111111,437,13,-13,13,10,64,64,,,,
+Digits (moderate redundancy),MutualInfo,30,5379,1.0,0.9644444444444444,434,16,-16,16,10,64,32,,,,
+Digits (moderate redundancy),RFE,30,5379,1.0,0.9666666666666667,435,15,-15,15,10,64,32,,,,
+Digits (moderate redundancy),L1,30,5379,1.0,0.9711111111111111,437,13,-13,13,10,64,32,,,,
+Digits (moderate redundancy),ElliotFS,30,5379,1.0,0.9555555555555556,430,20,-20,20,10,64,21,None,0.8,0.25,0.0
+Digits (moderate redundancy),Baseline,31,6358,1.0,0.98,441,9,-9,9,10,64,64,,,,
+Digits (moderate redundancy),MutualInfo,31,6358,1.0,0.9777777777777777,440,10,-10,10,10,64,32,,,,
+Digits (moderate redundancy),RFE,31,6358,1.0,0.98,441,9,-9,9,10,64,32,,,,
+Digits (moderate redundancy),L1,31,6358,1.0,0.9711111111111111,437,13,-13,13,10,64,32,,,,
+Digits (moderate redundancy),ElliotFS,31,6358,1.0,0.9577777777777777,431,19,-19,19,10,64,22,None,0.8,0.25,0.0
+Digits (moderate redundancy),Baseline,32,9288,1.0,0.9777777777777777,440,10,-10,10,10,64,64,,,,
+Digits (moderate redundancy),MutualInfo,32,9288,1.0,0.9688888888888889,436,14,-14,14,10,64,32,,,,
+Digits (moderate redundancy),RFE,32,9288,1.0,0.9733333333333334,438,12,-12,12,10,64,32,,,,
+Digits (moderate redundancy),L1,32,9288,1.0,0.98,441,9,-9,9,10,64,32,,,,
+Digits (moderate redundancy),ElliotFS,32,9288,1.0,0.9644444444444444,434,16,-16,16,10,64,22,None,0.8,0.25,0.0
+Digits (moderate redundancy),Baseline,33,3078,1.0,0.9844444444444445,443,7,-7,7,10,64,64,,,,
+Digits (moderate redundancy),MutualInfo,33,3078,1.0,0.9733333333333334,438,12,-12,12,10,64,32,,,,
+Digits (moderate redundancy),RFE,33,3078,1.0,0.9755555555555555,439,11,-11,11,10,64,32,,,,
+Digits (moderate redundancy),L1,33,3078,1.0,0.98,441,9,-9,9,10,64,32,,,,
+Digits (moderate redundancy),ElliotFS,33,3078,1.0,0.9711111111111111,437,13,-13,13,10,64,20,None,0.8,0.25,0.0
+Digits (moderate redundancy),Baseline,34,175,1.0,0.98,441,9,-9,9,10,64,64,,,,
+Digits (moderate redundancy),MutualInfo,34,175,1.0,0.9733333333333334,438,12,-12,12,10,64,32,,,,
+Digits (moderate redundancy),RFE,34,175,1.0,0.9822222222222222,442,8,-8,8,10,64,32,,,,
+Digits (moderate redundancy),L1,34,175,1.0,0.9755555555555555,439,11,-11,11,10,64,32,,,,
+Digits (moderate redundancy),ElliotFS,34,175,1.0,0.9711111111111111,437,13,-13,13,10,64,21,None,0.8,0.25,0.0
+Digits (moderate redundancy),Baseline,35,4296,1.0,0.9755555555555555,439,11,-11,11,10,64,64,,,,
+Digits (moderate redundancy),MutualInfo,35,4296,1.0,0.9622222222222222,433,17,-17,17,10,64,32,,,,
+Digits (moderate redundancy),RFE,35,4296,1.0,0.9644444444444444,434,16,-16,16,10,64,32,,,,
+Digits (moderate redundancy),L1,35,4296,1.0,0.9755555555555555,439,11,-11,11,10,64,32,,,,
+Digits (moderate redundancy),ElliotFS,35,4296,1.0,0.9466666666666667,426,24,-24,24,10,64,18,None,0.8,0.25,1.0
+Digits (moderate redundancy),Baseline,36,6275,1.0,0.9777777777777777,440,10,-10,10,10,64,64,,,,
+Digits (moderate redundancy),MutualInfo,36,6275,1.0,0.9755555555555555,439,11,-11,11,10,64,32,,,,
+Digits (moderate redundancy),RFE,36,6275,1.0,0.9777777777777777,440,10,-10,10,10,64,32,,,,
+Digits (moderate redundancy),L1,36,6275,1.0,0.9777777777777777,440,10,-10,10,10,64,32,,,,
+Digits (moderate redundancy),ElliotFS,36,6275,1.0,0.9644444444444444,434,16,-16,16,10,64,19,None,0.8,0.25,1.0
+Digits (moderate redundancy),Baseline,37,1236,1.0,0.98,441,9,-9,9,10,64,64,,,,
+Digits (moderate redundancy),MutualInfo,37,1236,1.0,0.9733333333333334,438,12,-12,12,10,64,32,,,,
+Digits (moderate redundancy),RFE,37,1236,1.0,0.9822222222222222,442,8,-8,8,10,64,32,,,,
+Digits (moderate redundancy),L1,37,1236,1.0,0.9777777777777777,440,10,-10,10,10,64,32,,,,
+Digits (moderate redundancy),ElliotFS,37,1236,1.0,0.9555555555555556,430,20,-20,20,10,64,18,None,0.8,0.25,0.0
+Digits (moderate redundancy),Baseline,38,9420,1.0,0.9822222222222222,442,8,-8,8,10,64,64,,,,
+Digits (moderate redundancy),MutualInfo,38,9420,1.0,0.98,441,9,-9,9,10,64,32,,,,
+Digits (moderate redundancy),RFE,38,9420,1.0,0.9822222222222222,442,8,-8,8,10,64,32,,,,
+Digits (moderate redundancy),L1,38,9420,1.0,0.9911111111111112,446,4,-4,4,10,64,32,,,,
+Digits (moderate redundancy),ElliotFS,38,9420,1.0,0.9644444444444444,434,16,-16,16,10,64,21,None,0.8,0.25,0.0
+Digits (moderate redundancy),Baseline,39,8754,1.0,0.9733333333333334,438,12,-12,12,10,64,64,,,,
+Digits (moderate redundancy),MutualInfo,39,8754,1.0,0.9711111111111111,437,13,-13,13,10,64,32,,,,
+Digits (moderate redundancy),RFE,39,8754,1.0,0.9688888888888889,436,14,-14,14,10,64,32,,,,
+Digits (moderate redundancy),L1,39,8754,1.0,0.9755555555555555,439,11,-11,11,10,64,32,,,,
+Digits (moderate redundancy),ElliotFS,39,8754,1.0,0.9466666666666667,426,24,-24,24,10,64,17,None,0.8,0.25,1.0
+Digits (moderate redundancy),Baseline,40,9446,1.0,0.9844444444444445,443,7,-7,7,10,64,64,,,,
+Digits (moderate redundancy),MutualInfo,40,9446,1.0,0.9755555555555555,439,11,-11,11,10,64,32,,,,
+Digits (moderate redundancy),RFE,40,9446,1.0,0.9822222222222222,442,8,-8,8,10,64,32,,,,
+Digits (moderate redundancy),L1,40,9446,1.0,0.98,441,9,-9,9,10,64,32,,,,
+Digits (moderate redundancy),ElliotFS,40,9446,1.0,0.9622222222222222,433,17,-17,17,10,64,20,None,0.8,0.25,0.0
+Digits (moderate redundancy),Baseline,41,7101,1.0,0.9733333333333334,438,12,-12,12,10,64,64,,,,
+Digits (moderate redundancy),MutualInfo,41,7101,1.0,0.9666666666666667,435,15,-15,15,10,64,32,,,,
+Digits (moderate redundancy),RFE,41,7101,1.0,0.9711111111111111,437,13,-13,13,10,64,32,,,,
+Digits (moderate redundancy),L1,41,7101,1.0,0.9688888888888889,436,14,-14,14,10,64,32,,,,
+Digits (moderate redundancy),ElliotFS,41,7101,1.0,0.9666666666666667,435,15,-15,15,10,64,18,None,0.8,0.25,3.0
+Digits (moderate redundancy),Baseline,42,8648,1.0,0.9777777777777777,440,10,-10,10,10,64,64,,,,
+Digits (moderate redundancy),MutualInfo,42,8648,1.0,0.9755555555555555,439,11,-11,11,10,64,32,,,,
+Digits (moderate redundancy),RFE,42,8648,1.0,0.9777777777777777,440,10,-10,10,10,64,32,,,,
+Digits (moderate redundancy),L1,42,8648,1.0,0.9733333333333334,438,12,-12,12,10,64,32,,,,
+Digits (moderate redundancy),ElliotFS,42,8648,1.0,0.9622222222222222,433,17,-17,17,10,64,21,None,0.8,0.25,0.0
+Digits (moderate redundancy),Baseline,43,5667,1.0,0.9777777777777777,440,10,-10,10,10,64,64,,,,
+Digits (moderate redundancy),MutualInfo,43,5667,1.0,0.9755555555555555,439,11,-11,11,10,64,32,,,,
+Digits (moderate redundancy),RFE,43,5667,1.0,0.9755555555555555,439,11,-11,11,10,64,32,,,,
+Digits (moderate redundancy),L1,43,5667,1.0,0.9777777777777777,440,10,-10,10,10,64,32,,,,
+Digits (moderate redundancy),ElliotFS,43,5667,1.0,0.9622222222222222,433,17,-17,17,10,64,20,None,0.8,0.25,0.0
+Digits (moderate redundancy),Baseline,44,9009,1.0,0.9711111111111111,437,13,-13,13,10,64,64,,,,
+Digits (moderate redundancy),MutualInfo,44,9009,1.0,0.9666666666666667,435,15,-15,15,10,64,32,,,,
+Digits (moderate redundancy),RFE,44,9009,1.0,0.9711111111111111,437,13,-13,13,10,64,32,,,,
+Digits (moderate redundancy),L1,44,9009,1.0,0.9733333333333334,438,12,-12,12,10,64,32,,,,
+Digits (moderate redundancy),ElliotFS,44,9009,1.0,0.9533333333333334,429,21,-21,21,10,64,18,None,0.8,0.25,1.0
+Digits (moderate redundancy),Baseline,45,4482,1.0,0.9733333333333334,438,12,-12,12,10,64,64,,,,
+Digits (moderate redundancy),MutualInfo,45,4482,1.0,0.9688888888888889,436,14,-14,14,10,64,32,,,,
+Digits (moderate redundancy),RFE,45,4482,1.0,0.9711111111111111,437,13,-13,13,10,64,32,,,,
+Digits (moderate redundancy),L1,45,4482,1.0,0.9755555555555555,439,11,-11,11,10,64,32,,,,
+Digits (moderate redundancy),ElliotFS,45,4482,1.0,0.9577777777777777,431,19,-19,19,10,64,20,None,0.8,0.25,0.0
+Digits (moderate redundancy),Baseline,46,6813,1.0,0.9733333333333334,438,12,-12,12,10,64,64,,,,
+Digits (moderate redundancy),MutualInfo,46,6813,1.0,0.9822222222222222,442,8,-8,8,10,64,32,,,,
+Digits (moderate redundancy),RFE,46,6813,1.0,0.98,441,9,-9,9,10,64,32,,,,
+Digits (moderate redundancy),L1,46,6813,1.0,0.98,441,9,-9,9,10,64,32,,,,
+Digits (moderate redundancy),ElliotFS,46,6813,1.0,0.9711111111111111,437,13,-13,13,10,64,21,None,0.8,0.25,0.0
+Digits (moderate redundancy),Baseline,47,1611,1.0,0.9755555555555555,439,11,-11,11,10,64,64,,,,
+Digits (moderate redundancy),MutualInfo,47,1611,1.0,0.9733333333333334,438,12,-12,12,10,64,32,,,,
+Digits (moderate redundancy),RFE,47,1611,1.0,0.9733333333333334,438,12,-12,12,10,64,32,,,,
+Digits (moderate redundancy),L1,47,1611,1.0,0.9733333333333334,438,12,-12,12,10,64,32,,,,
+Digits (moderate redundancy),ElliotFS,47,1611,1.0,0.9622222222222222,433,17,-17,17,10,64,21,None,0.8,0.25,0.0
+Digits (moderate redundancy),Baseline,48,949,1.0,0.9688888888888889,436,14,-14,14,10,64,64,,,,
+Digits (moderate redundancy),MutualInfo,48,949,1.0,0.9688888888888889,436,14,-14,14,10,64,32,,,,
+Digits (moderate redundancy),RFE,48,949,1.0,0.9644444444444444,434,16,-16,16,10,64,32,,,,
+Digits (moderate redundancy),L1,48,949,1.0,0.9644444444444444,434,16,-16,16,10,64,32,,,,
+Digits (moderate redundancy),ElliotFS,48,949,1.0,0.96,432,18,-18,18,10,64,21,None,0.8,0.25,0.0
+Digits (moderate redundancy),Baseline,49,6682,1.0,0.9755555555555555,439,11,-11,11,10,64,64,,,,
+Digits (moderate redundancy),MutualInfo,49,6682,1.0,0.9755555555555555,439,11,-11,11,10,64,32,,,,
+Digits (moderate redundancy),RFE,49,6682,1.0,0.9755555555555555,439,11,-11,11,10,64,32,,,,
+Digits (moderate redundancy),L1,49,6682,1.0,0.9711111111111111,437,13,-13,13,10,64,32,,,,
+Digits (moderate redundancy),ElliotFS,49,6682,1.0,0.9533333333333334,429,21,-21,21,10,64,19,None,0.8,0.25,0.0
+Digits (moderate redundancy),Baseline,50,3318,1.0,0.9866666666666667,444,6,-6,6,10,64,64,,,,
+Digits (moderate redundancy),MutualInfo,50,3318,1.0,0.9844444444444445,443,7,-7,7,10,64,32,,,,
+Digits (moderate redundancy),RFE,50,3318,1.0,0.9844444444444445,443,7,-7,7,10,64,32,,,,
+Digits (moderate redundancy),L1,50,3318,1.0,0.9844444444444445,443,7,-7,7,10,64,32,,,,
+Digits (moderate redundancy),ElliotFS,50,3318,1.0,0.98,441,9,-9,9,10,64,20,None,0.8,0.25,0.0
+Madelon (heavy redundancy),Baseline,1,3893,1.0,0.7046153846153846,254,121,204,71,2,500,500,,,,
+Madelon (heavy redundancy),MutualInfo,1,3893,1.0,0.696923076923077,247,119,206,78,2,500,50,,,,
+Madelon (heavy redundancy),RFE,1,3893,1.0,0.8507692307692307,284,56,269,41,2,500,50,,,,
+Madelon (heavy redundancy),L1,1,3893,1.0,0.7984615384615384,276,82,243,49,2,500,50,,,,
+Madelon (heavy redundancy),ElliotFS,1,3893,1.0,0.82,277,69,256,48,2,500,100,None,0.8,0.25,3.0
+Madelon (heavy redundancy),Baseline,2,4424,1.0,0.7123076923076923,238,100,225,87,2,500,500,,,,
+Madelon (heavy redundancy),MutualInfo,2,4424,1.0,0.7138461538461538,240,101,224,85,2,500,50,,,,
+Madelon (heavy redundancy),RFE,2,4424,1.0,0.88,289,42,283,36,2,500,50,,,,
+Madelon (heavy redundancy),L1,2,4424,1.0,0.8092307692307692,269,68,257,56,2,500,50,,,,
+Madelon (heavy redundancy),ElliotFS,2,4424,1.0,0.8461538461538461,283,58,267,42,2,500,100,None,0.8,0.25,3.0
+Madelon (heavy redundancy),Baseline,3,2681,1.0,0.7153846153846154,259,119,206,66,2,500,500,,,,
+Madelon (heavy redundancy),MutualInfo,3,2681,1.0,0.6630769230769231,227,121,204,98,2,500,50,,,,
+Madelon (heavy redundancy),RFE,3,2681,1.0,0.8646153846153846,287,50,275,38,2,500,50,,,,
+Madelon (heavy redundancy),L1,3,2681,1.0,0.8153846153846154,280,75,250,45,2,500,50,,,,
+Madelon (heavy redundancy),ElliotFS,3,2681,1.0,0.8476923076923077,287,61,264,38,2,500,100,None,0.8,0.25,0.0
+Madelon (heavy redundancy),Baseline,4,2486,1.0,0.7061538461538461,240,106,219,85,2,500,500,,,,
+Madelon (heavy redundancy),MutualInfo,4,2486,1.0,0.7338461538461538,250,98,227,75,2,500,50,,,,
+Madelon (heavy redundancy),RFE,4,2486,1.0,0.8415384615384616,282,60,265,43,2,500,50,,,,
+Madelon (heavy redundancy),L1,4,2486,1.0,0.7861538461538462,260,74,251,65,2,500,50,,,,
+Madelon (heavy redundancy),ElliotFS,4,2486,1.0,0.8246153846153846,276,65,260,49,2,500,100,None,0.8,0.25,3.0
+Madelon (heavy redundancy),Baseline,5,8047,1.0,0.7184615384615385,259,117,208,66,2,500,500,,,,
+Madelon (heavy redundancy),MutualInfo,5,8047,1.0,0.7307692307692307,260,110,215,65,2,500,50,,,,
+Madelon (heavy redundancy),RFE,5,8047,1.0,0.8538461538461538,280,50,275,45,2,500,50,,,,
+Madelon (heavy redundancy),L1,5,8047,1.0,0.803076923076923,274,77,248,51,2,500,50,,,,
+Madelon (heavy redundancy),ElliotFS,5,8047,1.0,0.8215384615384616,276,67,258,49,2,500,100,None,0.8,0.25,2.0
+Madelon (heavy redundancy),Baseline,6,3510,1.0,0.7076923076923077,246,111,214,79,2,500,500,,,,
+Madelon (heavy redundancy),MutualInfo,6,3510,1.0,0.703076923076923,229,97,228,96,2,500,50,,,,
+Madelon (heavy redundancy),RFE,6,3510,1.0,0.8676923076923077,290,51,274,35,2,500,50,,,,
+Madelon (heavy redundancy),L1,6,3510,1.0,0.8046153846153846,277,79,246,48,2,500,50,,,,
+Madelon (heavy redundancy),ElliotFS,6,3510,1.0,0.8538461538461538,285,55,270,40,2,500,100,None,0.8,0.25,1.0
+Madelon (heavy redundancy),Baseline,7,9139,1.0,0.7276923076923076,252,104,221,73,2,500,500,,,,
+Madelon (heavy redundancy),MutualInfo,7,9139,1.0,0.7184615384615385,245,103,222,80,2,500,50,,,,
+Madelon (heavy redundancy),RFE,7,9139,1.0,0.8507692307692307,290,62,263,35,2,500,50,,,,
+Madelon (heavy redundancy),L1,7,9139,1.0,0.8338461538461538,281,64,261,44,2,500,50,,,,
+Madelon (heavy redundancy),ElliotFS,7,9139,1.0,0.8446153846153847,291,67,258,34,2,500,100,None,0.8,0.25,0.0
+Madelon (heavy redundancy),Baseline,8,5262,1.0,0.7492307692307693,265,103,222,60,2,500,500,,,,
+Madelon (heavy redundancy),MutualInfo,8,5262,1.0,0.676923076923077,251,136,189,74,2,500,50,,,,
+Madelon (heavy redundancy),RFE,8,5262,1.0,0.8815384615384615,292,44,281,33,2,500,50,,,,
+Madelon (heavy redundancy),L1,8,5262,1.0,0.8323076923076923,281,65,260,44,2,500,50,,,,
+Madelon (heavy redundancy),ElliotFS,8,5262,1.0,0.8492307692307692,286,59,266,39,2,500,100,None,0.8,0.25,0.0
+Madelon (heavy redundancy),Baseline,9,8795,1.0,0.6846153846153846,238,118,207,87,2,500,500,,,,
+Madelon (heavy redundancy),MutualInfo,9,8795,1.0,0.676923076923077,233,118,207,92,2,500,50,,,,
+Madelon (heavy redundancy),RFE,9,8795,1.0,0.84,286,65,260,39,2,500,50,,,,
+Madelon (heavy redundancy),L1,9,8795,1.0,0.7707692307692308,270,94,231,55,2,500,50,,,,
+Madelon (heavy redundancy),ElliotFS,9,8795,1.0,0.8153846153846154,279,74,251,46,2,500,100,None,0.8,0.25,2.0
+Madelon (heavy redundancy),Baseline,10,5661,1.0,0.7107692307692308,248,111,214,77,2,500,500,,,,
+Madelon (heavy redundancy),MutualInfo,10,5661,1.0,0.74,258,102,223,67,2,500,50,,,,
+Madelon (heavy redundancy),RFE,10,5661,1.0,0.8738461538461538,291,48,277,34,2,500,50,,,,
+Madelon (heavy redundancy),L1,10,5661,1.0,0.8138461538461539,280,76,249,45,2,500,50,,,,
+Madelon (heavy redundancy),ElliotFS,10,5661,1.0,0.8353846153846154,283,65,260,42,2,500,100,None,0.8,0.25,3.0
+Madelon (heavy redundancy),Baseline,11,3996,1.0,0.7707692307692308,264,88,237,61,2,500,500,,,,
+Madelon (heavy redundancy),MutualInfo,11,3996,1.0,0.78,272,90,235,53,2,500,50,,,,
+Madelon (heavy redundancy),RFE,11,3996,1.0,0.8876923076923077,294,42,283,31,2,500,50,,,,
+Madelon (heavy redundancy),L1,11,3996,1.0,0.8553846153846154,290,59,266,35,2,500,50,,,,
+Madelon (heavy redundancy),ElliotFS,11,3996,1.0,0.8646153846153846,291,54,271,34,2,500,100,None,0.8,0.25,2.0
+Madelon (heavy redundancy),Baseline,12,7914,1.0,0.7169230769230769,250,109,216,75,2,500,500,,,,
+Madelon (heavy redundancy),MutualInfo,12,7914,1.0,0.7538461538461538,260,95,230,65,2,500,50,,,,
+Madelon (heavy redundancy),RFE,12,7914,1.0,0.88,289,42,283,36,2,500,50,,,,
+Madelon (heavy redundancy),L1,12,7914,1.0,0.8184615384615385,273,66,259,52,2,500,50,,,,
+Madelon (heavy redundancy),ElliotFS,12,7914,1.0,0.8353846153846154,285,67,258,40,2,500,100,None,0.8,0.25,0.0
+Madelon (heavy redundancy),Baseline,13,2065,1.0,0.7461538461538462,249,89,236,76,2,500,500,,,,
+Madelon (heavy redundancy),MutualInfo,13,2065,1.0,0.7553846153846154,250,84,241,75,2,500,50,,,,
+Madelon (heavy redundancy),RFE,13,2065,1.0,0.8692307692307693,285,45,280,40,2,500,50,,,,
+Madelon (heavy redundancy),L1,13,2065,1.0,0.8246153846153846,274,63,262,51,2,500,50,,,,
+Madelon (heavy redundancy),ElliotFS,13,2065,1.0,0.8538461538461538,281,51,274,44,2,500,100,None,0.8,0.25,0.0
+Madelon (heavy redundancy),Baseline,14,2367,1.0,0.6923076923076923,245,120,205,80,2,500,500,,,,
+Madelon (heavy redundancy),MutualInfo,14,2367,1.0,0.7261538461538461,256,109,216,69,2,500,50,,,,
+Madelon (heavy redundancy),RFE,14,2367,1.0,0.86,288,54,271,37,2,500,50,,,,
+Madelon (heavy redundancy),L1,14,2367,1.0,0.803076923076923,277,80,245,48,2,500,50,,,,
+Madelon (heavy redundancy),ElliotFS,14,2367,1.0,0.8153846153846154,276,71,254,49,2,500,100,None,0.8,0.25,0.0
+Madelon (heavy redundancy),Baseline,15,9368,1.0,0.7184615384615385,236,94,231,89,2,500,500,,,,
+Madelon (heavy redundancy),MutualInfo,15,9368,1.0,0.7153846153846154,245,105,220,80,2,500,50,,,,
+Madelon (heavy redundancy),RFE,15,9368,1.0,0.8261538461538461,274,62,263,51,2,500,50,,,,
+Madelon (heavy redundancy),L1,15,9368,1.0,0.8,266,71,254,59,2,500,50,,,,
+Madelon (heavy redundancy),ElliotFS,15,9368,1.0,0.8215384615384616,276,67,258,49,2,500,100,None,0.8,0.25,1.0
+Madelon (heavy redundancy),Baseline,16,325,1.0,0.7092307692307692,254,118,207,71,2,500,500,,,,
+Madelon (heavy redundancy),MutualInfo,16,325,1.0,0.7230769230769231,264,119,206,61,2,500,50,,,,
+Madelon (heavy redundancy),RFE,16,325,1.0,0.86,285,51,274,40,2,500,50,,,,
+Madelon (heavy redundancy),L1,16,325,1.0,0.7984615384615384,273,79,246,52,2,500,50,,,,
+Madelon (heavy redundancy),ElliotFS,16,325,1.0,0.8353846153846154,281,63,262,44,2,500,100,None,0.8,0.25,3.0
+Madelon (heavy redundancy),Baseline,17,5024,1.0,0.7092307692307692,245,109,216,80,2,500,500,,,,
+Madelon (heavy redundancy),MutualInfo,17,5024,1.0,0.7292307692307692,252,103,222,73,2,500,50,,,,
+Madelon (heavy redundancy),RFE,17,5024,1.0,0.8646153846153846,285,48,277,40,2,500,50,,,,
+Madelon (heavy redundancy),L1,17,5024,1.0,0.7953846153846154,271,79,246,54,2,500,50,,,,
+Madelon (heavy redundancy),ElliotFS,17,5024,1.0,0.8369230769230769,280,61,264,45,2,500,100,None,0.8,0.25,2.0
+Madelon (heavy redundancy),Baseline,18,8360,1.0,0.7230769230769231,260,115,210,65,2,500,500,,,,
+Madelon (heavy redundancy),MutualInfo,18,8360,1.0,0.7384615384615385,255,100,225,70,2,500,50,,,,
+Madelon (heavy redundancy),RFE,18,8360,1.0,0.8553846153846154,285,54,271,40,2,500,50,,,,
+Madelon (heavy redundancy),L1,18,8360,1.0,0.8061538461538461,281,82,243,44,2,500,50,,,,
+Madelon (heavy redundancy),ElliotFS,18,8360,1.0,0.8384615384615385,285,65,260,40,2,500,100,None,0.8,0.25,0.0
+Madelon (heavy redundancy),Baseline,19,3950,1.0,0.7046153846153846,246,113,212,79,2,500,500,,,,
+Madelon (heavy redundancy),MutualInfo,19,3950,1.0,0.7138461538461538,253,114,211,72,2,500,50,,,,
+Madelon (heavy redundancy),RFE,19,3950,1.0,0.8553846153846154,282,51,274,43,2,500,50,,,,
+Madelon (heavy redundancy),L1,19,3950,1.0,0.7907692307692308,273,84,241,52,2,500,50,,,,
+Madelon (heavy redundancy),ElliotFS,19,3950,1.0,0.8153846153846154,277,72,253,48,2,500,100,None,0.8,0.25,1.0
+Madelon (heavy redundancy),Baseline,20,6774,1.0,0.7323076923076923,254,103,222,71,2,500,500,,,,
+Madelon (heavy redundancy),MutualInfo,20,6774,1.0,0.7430769230769231,249,91,234,76,2,500,50,,,,
+Madelon (heavy redundancy),RFE,20,6774,1.0,0.86,280,46,279,45,2,500,50,,,,
+Madelon (heavy redundancy),L1,20,6774,1.0,0.8046153846153846,273,75,250,52,2,500,50,,,,
+Madelon (heavy redundancy),ElliotFS,20,6774,1.0,0.816923076923077,272,66,259,53,2,500,100,None,0.8,0.25,3.0
+Madelon (heavy redundancy),Baseline,21,9838,1.0,0.703076923076923,245,113,212,80,2,500,500,,,,
+Madelon (heavy redundancy),MutualInfo,21,9838,1.0,0.7153846153846154,243,103,222,82,2,500,50,,,,
+Madelon (heavy redundancy),RFE,21,9838,1.0,0.8569230769230769,285,53,272,40,2,500,50,,,,
+Madelon (heavy redundancy),L1,21,9838,1.0,0.8061538461538461,274,75,250,51,2,500,50,,,,
+Madelon (heavy redundancy),ElliotFS,21,9838,1.0,0.8369230769230769,278,59,266,47,2,500,100,None,0.8,0.25,3.0
+Madelon (heavy redundancy),Baseline,22,9935,1.0,0.7153846153846154,241,101,224,84,2,500,500,,,,
+Madelon (heavy redundancy),MutualInfo,22,9935,1.0,0.7153846153846154,240,100,225,85,2,500,50,,,,
+Madelon (heavy redundancy),RFE,22,9935,1.0,0.8492307692307692,286,59,266,39,2,500,50,,,,
+Madelon (heavy redundancy),L1,22,9935,1.0,0.8061538461538461,272,73,252,53,2,500,50,,,,
+Madelon (heavy redundancy),ElliotFS,22,9935,1.0,0.82,276,68,257,49,2,500,100,None,0.8,0.25,0.0
+Madelon (heavy redundancy),Baseline,23,6274,1.0,0.7138461538461538,255,116,209,70,2,500,500,,,,
+Madelon (heavy redundancy),MutualInfo,23,6274,1.0,0.7276923076923076,258,110,215,67,2,500,50,,,,
+Madelon (heavy redundancy),RFE,23,6274,1.0,0.8707692307692307,287,46,279,38,2,500,50,,,,
+Madelon (heavy redundancy),L1,23,6274,1.0,0.8153846153846154,281,76,249,44,2,500,50,,,,
+Madelon (heavy redundancy),ElliotFS,23,6274,1.0,0.8353846153846154,284,66,259,41,2,500,100,None,0.8,0.25,3.0
+Madelon (heavy redundancy),Baseline,24,2291,1.0,0.7307692307692307,261,111,214,64,2,500,500,,,,
+Madelon (heavy redundancy),MutualInfo,24,2291,1.0,0.7523076923076923,268,104,221,57,2,500,50,,,,
+Madelon (heavy redundancy),RFE,24,2291,1.0,0.8676923076923077,288,49,276,37,2,500,50,,,,
+Madelon (heavy redundancy),L1,24,2291,1.0,0.8246153846153846,280,69,256,45,2,500,50,,,,
+Madelon (heavy redundancy),ElliotFS,24,2291,1.0,0.8430769230769231,282,59,266,43,2,500,100,None,0.8,0.25,3.0
+Madelon (heavy redundancy),Baseline,25,3462,1.0,0.6953846153846154,237,110,215,88,2,500,500,,,,
+Madelon (heavy redundancy),MutualInfo,25,3462,1.0,0.7153846153846154,246,106,219,79,2,500,50,,,,
+Madelon (heavy redundancy),RFE,25,3462,1.0,0.8692307692307693,288,48,277,37,2,500,50,,,,
+Madelon (heavy redundancy),L1,25,3462,1.0,0.803076923076923,272,75,250,53,2,500,50,,,,
+Madelon (heavy redundancy),ElliotFS,25,3462,1.0,0.8276923076923077,277,64,261,48,2,500,100,None,0.8,0.25,3.0
+Madelon (heavy redundancy),Baseline,26,645,1.0,0.6815384615384615,245,127,198,80,2,500,500,,,,
+Madelon (heavy redundancy),MutualInfo,26,645,1.0,0.7,255,125,200,70,2,500,50,,,,
+Madelon (heavy redundancy),RFE,26,645,1.0,0.8569230769230769,278,46,279,47,2,500,50,,,,
+Madelon (heavy redundancy),L1,26,645,1.0,0.7907692307692308,269,80,245,56,2,500,50,,,,
+Madelon (heavy redundancy),ElliotFS,26,645,1.0,0.8153846153846154,279,74,251,46,2,500,100,None,0.8,0.25,1.0
+Madelon (heavy redundancy),Baseline,27,4254,1.0,0.7338461538461538,255,103,222,70,2,500,500,,,,
+Madelon (heavy redundancy),MutualInfo,27,4254,1.0,0.7107692307692308,256,119,206,69,2,500,50,,,,
+Madelon (heavy redundancy),RFE,27,4254,1.0,0.8630769230769231,287,51,274,38,2,500,50,,,,
+Madelon (heavy redundancy),L1,27,4254,1.0,0.8292307692307692,284,70,255,41,2,500,50,,,,
+Madelon (heavy redundancy),ElliotFS,27,4254,1.0,0.8415384615384616,289,67,258,36,2,500,100,None,0.8,0.25,2.0
+Madelon (heavy redundancy),Baseline,28,4664,1.0,0.7046153846153846,247,114,211,78,2,500,500,,,,
+Madelon (heavy redundancy),MutualInfo,28,4664,1.0,0.7246153846153847,262,116,209,63,2,500,50,,,,
+Madelon (heavy redundancy),RFE,28,4664,1.0,0.8692307692307693,293,53,272,32,2,500,50,,,,
+Madelon (heavy redundancy),L1,28,4664,1.0,0.8246153846153846,284,73,252,41,2,500,50,,,,
+Madelon (heavy redundancy),ElliotFS,28,4664,1.0,0.84,294,73,252,31,2,500,100,None,0.8,0.25,0.0
+Madelon (heavy redundancy),Baseline,29,1282,1.0,0.7107692307692308,265,128,197,60,2,500,500,,,,
+Madelon (heavy redundancy),MutualInfo,29,1282,1.0,0.7015384615384616,264,133,192,61,2,500,50,,,,
+Madelon (heavy redundancy),RFE,29,1282,1.0,0.8384615384615385,288,68,257,37,2,500,50,,,,
+Madelon (heavy redundancy),L1,29,1282,1.0,0.7953846153846154,282,90,235,43,2,500,50,,,,
+Madelon (heavy redundancy),ElliotFS,29,1282,1.0,0.8276923076923077,284,71,254,41,2,500,100,None,0.8,0.25,2.0
+Madelon (heavy redundancy),Baseline,30,5379,1.0,0.7338461538461538,248,96,229,77,2,500,500,,,,
+Madelon (heavy redundancy),MutualInfo,30,5379,1.0,0.7707692307692308,258,82,243,67,2,500,50,,,,
+Madelon (heavy redundancy),RFE,30,5379,1.0,0.8738461538461538,292,49,276,33,2,500,50,,,,
+Madelon (heavy redundancy),L1,30,5379,1.0,0.8246153846153846,283,72,253,42,2,500,50,,,,
+Madelon (heavy redundancy),ElliotFS,30,5379,1.0,0.8492307692307692,284,57,268,41,2,500,100,None,0.8,0.25,2.0
+Madelon (heavy redundancy),Baseline,31,6358,1.0,0.7230769230769231,252,107,218,73,2,500,500,,,,
+Madelon (heavy redundancy),MutualInfo,31,6358,1.0,0.64,201,110,215,124,2,500,50,,,,
+Madelon (heavy redundancy),RFE,31,6358,1.0,0.8615384615384616,289,54,271,36,2,500,50,,,,
+Madelon (heavy redundancy),L1,31,6358,1.0,0.7907692307692308,267,78,247,58,2,500,50,,,,
+Madelon (heavy redundancy),ElliotFS,31,6358,1.0,0.8353846153846154,280,62,263,45,2,500,100,None,0.8,0.25,3.0
+Madelon (heavy redundancy),Baseline,32,9288,1.0,0.7169230769230769,254,113,212,71,2,500,500,,,,
+Madelon (heavy redundancy),MutualInfo,32,9288,1.0,0.72,251,108,217,74,2,500,50,,,,
+Madelon (heavy redundancy),RFE,32,9288,1.0,0.8553846153846154,284,53,272,41,2,500,50,,,,
+Madelon (heavy redundancy),L1,32,9288,1.0,0.8061538461538461,278,79,246,47,2,500,50,,,,
+Madelon (heavy redundancy),ElliotFS,32,9288,1.0,0.8246153846153846,282,71,254,43,2,500,100,None,0.8,0.25,3.0
+Madelon (heavy redundancy),Baseline,33,3078,1.0,0.696923076923077,235,107,218,90,2,500,500,,,,
+Madelon (heavy redundancy),MutualInfo,33,3078,1.0,0.6015384615384616,179,113,212,146,2,500,50,,,,
+Madelon (heavy redundancy),RFE,33,3078,1.0,0.86,283,49,276,42,2,500,50,,,,
+Madelon (heavy redundancy),L1,33,3078,1.0,0.8123076923076923,268,65,260,57,2,500,50,,,,
+Madelon (heavy redundancy),ElliotFS,33,3078,1.0,0.8276923076923077,272,59,266,53,2,500,100,None,0.8,0.25,3.0
+Madelon (heavy redundancy),Baseline,34,175,1.0,0.7292307692307692,253,104,221,72,2,500,500,,,,
+Madelon (heavy redundancy),MutualInfo,34,175,1.0,0.7323076923076923,253,102,223,72,2,500,50,,,,
+Madelon (heavy redundancy),RFE,34,175,1.0,0.8492307692307692,282,55,270,43,2,500,50,,,,
+Madelon (heavy redundancy),L1,34,175,1.0,0.8261538461538461,279,67,258,46,2,500,50,,,,
+Madelon (heavy redundancy),ElliotFS,34,175,1.0,0.8276923076923077,282,69,256,43,2,500,100,None,0.8,0.25,1.0
+Madelon (heavy redundancy),Baseline,35,4296,1.0,0.72,249,106,219,76,2,500,500,,,,
+Madelon (heavy redundancy),MutualInfo,35,4296,1.0,0.7230769230769231,253,108,217,72,2,500,50,,,,
+Madelon (heavy redundancy),RFE,35,4296,1.0,0.8630769230769231,292,56,269,33,2,500,50,,,,
+Madelon (heavy redundancy),L1,35,4296,1.0,0.8061538461538461,279,80,245,46,2,500,50,,,,
+Madelon (heavy redundancy),ElliotFS,35,4296,1.0,0.8215384615384616,284,75,250,41,2,500,100,None,0.8,0.25,2.0
+Madelon (heavy redundancy),Baseline,36,6275,1.0,0.6907692307692308,240,116,209,85,2,500,500,,,,
+Madelon (heavy redundancy),MutualInfo,36,6275,1.0,0.7292307692307692,262,113,212,63,2,500,50,,,,
+Madelon (heavy redundancy),RFE,36,6275,1.0,0.8661538461538462,288,50,275,37,2,500,50,,,,
+Madelon (heavy redundancy),L1,36,6275,1.0,0.7846153846153846,275,90,235,50,2,500,50,,,,
+Madelon (heavy redundancy),ElliotFS,36,6275,1.0,0.8276923076923077,279,66,259,46,2,500,100,None,0.8,0.25,2.0
+Madelon (heavy redundancy),Baseline,37,1236,1.0,0.74,254,98,227,71,2,500,500,,,,
+Madelon (heavy redundancy),MutualInfo,37,1236,1.0,0.703076923076923,242,110,215,83,2,500,50,,,,
+Madelon (heavy redundancy),RFE,37,1236,1.0,0.86,286,52,273,39,2,500,50,,,,
+Madelon (heavy redundancy),L1,37,1236,1.0,0.8138461538461539,276,72,253,49,2,500,50,,,,
+Madelon (heavy redundancy),ElliotFS,37,1236,1.0,0.8323076923076923,282,66,259,43,2,500,100,None,0.8,0.25,3.0
+Madelon (heavy redundancy),Baseline,38,9420,1.0,0.7061538461538461,240,106,219,85,2,500,500,,,,
+Madelon (heavy redundancy),MutualInfo,38,9420,1.0,0.6846153846153846,230,110,215,95,2,500,50,,,,
+Madelon (heavy redundancy),RFE,38,9420,1.0,0.8415384615384616,280,58,267,45,2,500,50,,,,
+Madelon (heavy redundancy),L1,38,9420,1.0,0.7923076923076923,269,79,246,56,2,500,50,,,,
+Madelon (heavy redundancy),ElliotFS,38,9420,1.0,0.8246153846153846,277,66,259,48,2,500,100,None,0.8,0.25,1.0
+Madelon (heavy redundancy),Baseline,39,8754,1.0,0.7,239,109,216,86,2,500,500,,,,
+Madelon (heavy redundancy),MutualInfo,39,8754,1.0,0.6892307692307692,239,116,209,86,2,500,50,,,,
+Madelon (heavy redundancy),RFE,39,8754,1.0,0.8384615384615385,267,47,278,58,2,500,50,,,,
+Madelon (heavy redundancy),L1,39,8754,1.0,0.7830769230769231,260,76,249,65,2,500,50,,,,
+Madelon (heavy redundancy),ElliotFS,39,8754,1.0,0.8138461538461539,270,66,259,55,2,500,100,None,0.8,0.25,2.0
+Madelon (heavy redundancy),Baseline,40,9446,1.0,0.7046153846153846,238,105,220,87,2,500,500,,,,
+Madelon (heavy redundancy),MutualInfo,40,9446,1.0,0.6476923076923077,212,116,209,113,2,500,50,,,,
+Madelon (heavy redundancy),RFE,40,9446,1.0,0.8523076923076923,279,50,275,46,2,500,50,,,,
+Madelon (heavy redundancy),L1,40,9446,1.0,0.8015384615384615,266,70,255,59,2,500,50,,,,
+Madelon (heavy redundancy),ElliotFS,40,9446,1.0,0.8276923076923077,270,57,268,55,2,500,100,None,0.8,0.25,3.0
+Madelon (heavy redundancy),Baseline,41,7101,1.0,0.703076923076923,252,120,205,73,2,500,500,,,,
+Madelon (heavy redundancy),MutualInfo,41,7101,1.0,0.7076923076923077,254,119,206,71,2,500,50,,,,
+Madelon (heavy redundancy),RFE,41,7101,1.0,0.8661538461538462,287,49,276,38,2,500,50,,,,
+Madelon (heavy redundancy),L1,41,7101,1.0,0.8,277,82,243,48,2,500,50,,,,
+Madelon (heavy redundancy),ElliotFS,41,7101,1.0,0.84,284,63,262,41,2,500,100,None,0.8,0.25,0.0
+Madelon (heavy redundancy),Baseline,42,8648,1.0,0.7446153846153846,267,108,217,58,2,500,500,,,,
+Madelon (heavy redundancy),MutualInfo,42,8648,1.0,0.7615384615384615,269,99,226,56,2,500,50,,,,
+Madelon (heavy redundancy),RFE,42,8648,1.0,0.8830769230769231,296,47,278,29,2,500,50,,,,
+Madelon (heavy redundancy),L1,42,8648,1.0,0.8184615384615385,288,81,244,37,2,500,50,,,,
+Madelon (heavy redundancy),ElliotFS,42,8648,1.0,0.8646153846153846,297,60,265,28,2,500,100,None,0.8,0.25,2.0
+Madelon (heavy redundancy),Baseline,43,5667,1.0,0.7,239,109,216,86,2,500,500,,,,
+Madelon (heavy redundancy),MutualInfo,43,5667,1.0,0.7353846153846154,256,103,222,69,2,500,50,,,,
+Madelon (heavy redundancy),RFE,43,5667,1.0,0.8538461538461538,282,52,273,43,2,500,50,,,,
+Madelon (heavy redundancy),L1,43,5667,1.0,0.8153846153846154,276,71,254,49,2,500,50,,,,
+Madelon (heavy redundancy),ElliotFS,43,5667,1.0,0.8384615384615385,280,60,265,45,2,500,100,None,0.8,0.25,0.0
+Madelon (heavy redundancy),Baseline,44,9009,1.0,0.7061538461538461,262,128,197,63,2,500,500,,,,
+Madelon (heavy redundancy),MutualInfo,44,9009,1.0,0.6938461538461539,251,125,200,74,2,500,50,,,,
+Madelon (heavy redundancy),RFE,44,9009,1.0,0.8492307692307692,284,57,268,41,2,500,50,,,,
+Madelon (heavy redundancy),L1,44,9009,1.0,0.796923076923077,277,84,241,48,2,500,50,,,,
+Madelon (heavy redundancy),ElliotFS,44,9009,1.0,0.8153846153846154,280,75,250,45,2,500,100,None,0.8,0.25,2.0
+Madelon (heavy redundancy),Baseline,45,4482,1.0,0.7261538461538461,249,102,223,76,2,500,500,,,,
+Madelon (heavy redundancy),MutualInfo,45,4482,1.0,0.7215384615384616,255,111,214,70,2,500,50,,,,
+Madelon (heavy redundancy),RFE,45,4482,1.0,0.8661538461538462,286,48,277,39,2,500,50,,,,
+Madelon (heavy redundancy),L1,45,4482,1.0,0.8061538461538461,277,78,247,48,2,500,50,,,,
+Madelon (heavy redundancy),ElliotFS,45,4482,1.0,0.8338461538461538,283,66,259,42,2,500,100,None,0.8,0.25,1.0
+Madelon (heavy redundancy),Baseline,46,6813,1.0,0.7169230769230769,240,99,226,85,2,500,500,,,,
+Madelon (heavy redundancy),MutualInfo,46,6813,1.0,0.7492307692307693,252,90,235,73,2,500,50,,,,
+Madelon (heavy redundancy),RFE,46,6813,1.0,0.8661538461538462,280,42,283,45,2,500,50,,,,
+Madelon (heavy redundancy),L1,46,6813,1.0,0.7984615384615384,267,73,252,58,2,500,50,,,,
+Madelon (heavy redundancy),ElliotFS,46,6813,1.0,0.8430769230769231,275,52,273,50,2,500,100,None,0.8,0.25,1.0
+Madelon (heavy redundancy),Baseline,47,1611,1.0,0.7215384615384616,254,110,215,71,2,500,500,,,,
+Madelon (heavy redundancy),MutualInfo,47,1611,1.0,0.7292307692307692,254,105,220,71,2,500,50,,,,
+Madelon (heavy redundancy),RFE,47,1611,1.0,0.8461538461538461,288,63,262,37,2,500,50,,,,
+Madelon (heavy redundancy),L1,47,1611,1.0,0.8046153846153846,277,79,246,48,2,500,50,,,,
+Madelon (heavy redundancy),ElliotFS,47,1611,1.0,0.8292307692307692,281,67,258,44,2,500,100,None,0.8,0.25,3.0
+Madelon (heavy redundancy),Baseline,48,949,1.0,0.6538461538461539,224,124,201,101,2,500,500,,,,
+Madelon (heavy redundancy),MutualInfo,48,949,1.0,0.703076923076923,256,124,201,69,2,500,50,,,,
+Madelon (heavy redundancy),RFE,48,949,1.0,0.8415384615384616,281,59,266,44,2,500,50,,,,
+Madelon (heavy redundancy),L1,48,949,1.0,0.8,272,77,248,53,2,500,50,,,,
+Madelon (heavy redundancy),ElliotFS,48,949,1.0,0.82,272,64,261,53,2,500,100,None,0.8,0.25,0.0
+Madelon (heavy redundancy),Baseline,49,6682,1.0,0.703076923076923,240,108,217,85,2,500,500,,,,
+Madelon (heavy redundancy),MutualInfo,49,6682,1.0,0.6984615384615385,236,107,218,89,2,500,50,,,,
+Madelon (heavy redundancy),RFE,49,6682,1.0,0.8461538461538461,279,54,271,46,2,500,50,,,,
+Madelon (heavy redundancy),L1,49,6682,1.0,0.7861538461538462,265,79,246,60,2,500,50,,,,
+Madelon (heavy redundancy),ElliotFS,49,6682,1.0,0.8123076923076923,276,73,252,49,2,500,100,None,0.8,0.25,2.0
+Madelon (heavy redundancy),Baseline,50,3318,1.0,0.7261538461538461,246,99,226,79,2,500,500,,,,
+Madelon (heavy redundancy),MutualInfo,50,3318,1.0,0.7692307692307693,258,83,242,67,2,500,50,,,,
+Madelon (heavy redundancy),RFE,50,3318,1.0,0.8446153846153847,271,47,278,54,2,500,50,,,,
+Madelon (heavy redundancy),L1,50,3318,1.0,0.8123076923076923,270,67,258,55,2,500,50,,,,
+Madelon (heavy redundancy),ElliotFS,50,3318,1.0,0.8307692307692308,276,61,264,49,2,500,100,None,0.8,0.25,1.0

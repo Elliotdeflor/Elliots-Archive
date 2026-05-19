@@ -1,0 +1,22 @@
+digraph "Light Fill Method" {
+	Start [label=Start fillcolor=lightgrey shape=ellipse style=filled]
+	Init [label="Initialize Filled File"]
+	Start -> Init
+	Identify [label="Identify Null & Non-Null Columns"]
+	Init -> Identify
+	Model [label="Select Best Model"]
+	Identify -> Model
+	Train [label="Train Model"]
+	Model -> Train
+	Fill [label="Fill Missing Values"]
+	Train -> Fill
+	Update [label="Update Table"]
+	Fill -> Update
+	Check [label="Check Remaining Nulls"]
+	Update -> Check
+	Repeat [label="Repeat for Remaining Nulls" shape=diamond]
+	Check -> Repeat
+	Repeat -> Model [label=Yes]
+	End [label=End fillcolor=lightgrey shape=ellipse style=filled]
+	Repeat -> End [label=No]
+}

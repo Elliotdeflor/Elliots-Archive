@@ -1,0 +1,21 @@
+Dataset,Method,mean_retained,std_retained,n
+Breast Cancer (low redundancy),Baseline,30.0,0.0,55
+Breast Cancer (low redundancy),ElliotFS,9.218181818181819,1.133511572436949,55
+Breast Cancer (low redundancy),L1,30.0,0.0,55
+Breast Cancer (low redundancy),MutualInfo,30.0,0.0,55
+Breast Cancer (low redundancy),RFE,30.0,0.0,55
+Digits (moderate redundancy),Baseline,64.0,0.0,55
+Digits (moderate redundancy),ElliotFS,19.927272727272726,1.451111265797322,55
+Digits (moderate redundancy),L1,32.0,0.0,55
+Digits (moderate redundancy),MutualInfo,32.0,0.0,55
+Digits (moderate redundancy),RFE,32.0,0.0,55
+HAR (moderate–high redundancy),Baseline,561.0,0.0,5
+HAR (moderate–high redundancy),ElliotFS,123.6,3.2863353450309964,5
+HAR (moderate–high redundancy),L1,50.0,0.0,5
+HAR (moderate–high redundancy),MutualInfo,50.0,0.0,5
+HAR (moderate–high redundancy),RFE,50.0,0.0,5
+Madelon (heavy redundancy),Baseline,500.0,0.0,55
+Madelon (heavy redundancy),ElliotFS,100.0,0.0,55
+Madelon (heavy redundancy),L1,50.0,0.0,55
+Madelon (heavy redundancy),MutualInfo,50.0,0.0,55
+Madelon (heavy redundancy),RFE,50.0,0.0,55

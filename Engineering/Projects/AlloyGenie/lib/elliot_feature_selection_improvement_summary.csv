@@ -1,0 +1,17 @@
+dataset,method,mean_improvement,std_improvement,n_runs
+Breast Cancer (low redundancy),MutualInfo,0.0,0.011397207002102542,65
+Breast Cancer (low redundancy),RFE,0.0,0.011397207002102542,65
+Breast Cancer (low redundancy),ElliotFS,-0.009897794513179122,0.015285575385810005,65
+Breast Cancer (low redundancy),L1,-0.01452393760086065,0.016085231604175246,65
+Digits (moderate redundancy),L1,-0.0018119658119658186,0.0049983378053823045,65
+Digits (moderate redundancy),RFE,-0.0019829059829059924,0.005032656885546161,65
+Digits (moderate redundancy),MutualInfo,-0.0025641025641025533,0.0054323955284558915,65
+Digits (moderate redundancy),ElliotFS,-0.0158974358974359,0.007907946164182732,65
+HAR (moderate–high redundancy),ElliotFS,-0.001242718446601887,0.0025227777505105776,5
+HAR (moderate–high redundancy),L1,-0.001553398058252431,0.002313859279186971,5
+HAR (moderate–high redundancy),RFE,-0.0021747572815534076,0.004624458453313903,5
+HAR (moderate–high redundancy),MutualInfo,-0.03976699029126205,0.004347086701034818,5
+Madelon (heavy redundancy),RFE,0.1442603550295858,0.01665160144485201,65
+Madelon (heavy redundancy),ElliotFS,0.11763313609467456,0.0144655194067435,65
+Madelon (heavy redundancy),L1,0.09031952662721893,0.01403641470042259,65
+Madelon (heavy redundancy),MutualInfo,0.0007810650887574019,0.02844350140122988,65

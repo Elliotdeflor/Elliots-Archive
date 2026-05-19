@@ -1,0 +1,2 @@
+,name,columns,datatypes
+0,core-data,"['composition', 'phase', 'hardness', 'yield_strength', 'young_modulus']","['str', 'int', 'float', 'bool']"
