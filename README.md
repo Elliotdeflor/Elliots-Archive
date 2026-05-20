@@ -1,6 +1,6 @@
 # Elliot's Archive
 
-**elliotdeflor / archive** · PhD researcher · engineer · writer · problem solver
+**elliotdeflor / archive**
 
 ---
 
